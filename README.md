@@ -1,4 +1,3 @@
-# cansat-eee192
 # Git Best Practices
 
 This guide provides beginner-friendly best practices for using Git commands such as `push`, `pull`, `commit`, `revert`, and more. Following these guidelines will help keep your repository clean and organized.
@@ -8,7 +7,7 @@ This guide provides beginner-friendly best practices for using Git commands such
 ## 📌 **Committing Changes**
 
 ### ✅ Best Practices:
-- Commit **small, logical changes** instead of large commits.
+- Commit **small, logical changes** instead of large commits (to make it easier to pin-point/revert bugs)
 - Use **clear and descriptive commit messages** (e.g., `fix: correct typo in README`).
 - Check your changes with `git status` before committing.
 
@@ -95,6 +94,23 @@ git merge <branch>           # Merge a branch
 git status                   # Check for conflicts
 git add <conflicted-file>    # Mark conflict as resolved
 git commit                   # Complete the merge
+```
+
+---
+
+## 🔀 **Using a Scratch Branch for Debugging**
+
+### ✅ Best Practices:
+- Keep the `main` branch stable and production-ready.
+- Use a `scratch` branch to push debugging code for others to access.
+- Reset or delete the `scratch` branch when no longer needed.
+
+### 🔹 Commands:
+```sh
+git branch scratch            # Create a scratch/debug branch
+git switch scratch            # Switch to the scratch branch
+git commit -am "Debugging logs added"
+git push origin scratch       # Push for others to access/debug
 ```
 
 ---
