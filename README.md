@@ -2,7 +2,6 @@
 
 This guide provides beginner-friendly best practices for using Git commands such as `push`, `pull`, `commit`, `revert`, and more. Following these guidelines will help keep your repository clean and organized.
 
-Testing scratch
 ---
 
 ## 📌 **Committing Changes**
