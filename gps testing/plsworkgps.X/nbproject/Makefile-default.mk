@@ -241,12 +241,12 @@ ${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbprojec
 	${MP_CC} $(MP_EXTRA_LD_PRE) -g   -mprocessor=$(MP_PROCESSOR_OPTION)  -mno-device-startup-code -o ${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX} ${OBJECTFILES_QUOTED_IF_SPACED}          -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -Wl,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_LD_POST)$(MP_LINKER_FILE_OPTION),--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,-D=__DEBUG_D,--defsym=_min_heap_size=512,--gc-sections,-L"./",-Map="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map",-DAS_SIZE=0x40000,-DBOOTPROT_SIZE=0x0,-DNONSECURE,-DRS_SIZE=0x8000,--memorysummary,${DISTDIR}/memoryfile.xml,-l:plsworkgps_secure_sg_veneer.lib -mdfp="${DFP_DIR}/PIC32CM-LS00"
 	
 else
-${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   ../../../eee192_GPS/src/config/default/PIC32CM5164LS00048.ld ../../../eee192_GPS/plsworkgps.X/..\\..\\eee192_GPS_secure\\plsworkgps_secure.X/dist/default/production/plsworkgps_secure.X.production.hex
+${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   ../../../eee192_GPS/src/config/default/PIC32CM5164LS00048.ld ../../../eee192_GPS/plsworkgps.X/..\\..\\eee192_GPS_secure\\plsworkgps_secure.X/dist/default/production/plsworkgps_secure.X.production.hex ..\\..\\gps\ testing_secure\\plsworkgps_secure.X/dist/default/production/plsworkgps_secure.X.production.hex
 	@${MKDIR} ${DISTDIR} 
 	${MP_CC} $(MP_EXTRA_LD_PRE)  -mprocessor=$(MP_PROCESSOR_OPTION)  -mno-device-startup-code -o ${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX} ${OBJECTFILES_QUOTED_IF_SPACED}          -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -Wl,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_LD_POST)$(MP_LINKER_FILE_OPTION),--defsym=_min_heap_size=512,--gc-sections,-L"./",-Map="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map",-DAS_SIZE=0x40000,-DBOOTPROT_SIZE=0x0,-DNONSECURE,-DRS_SIZE=0x8000,--memorysummary,${DISTDIR}/memoryfile.xml,-l:plsworkgps_secure_sg_veneer.lib -mdfp="${DFP_DIR}/PIC32CM-LS00"
 	${MP_CC_DIR}\\xc32-bin2hex ${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX} 
 	@echo "Creating unified hex file"
-	@"C:/Program Files/Microchip/MPLABX/v6.20/mplab_platform/platform/../mplab_ide/modules/../../bin/hexmate" --edf="C:/Program Files/Microchip/MPLABX/v6.20/mplab_platform/platform/../mplab_ide/modules/../../dat/en_msgs.txt" ${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.hex ../../../eee192_GPS/plsworkgps.X/..\..\eee192_GPS_secure\plsworkgps_secure.X/dist/default/production/plsworkgps_secure.X.production.hex -odist/${CND_CONF}/production/plsworkgps.X.production.unified.hex
+	@"C:/Program Files/Microchip/MPLABX/v6.20/mplab_platform/platform/../mplab_ide/modules/../../bin/hexmate" --edf="C:/Program Files/Microchip/MPLABX/v6.20/mplab_platform/platform/../mplab_ide/modules/../../dat/en_msgs.txt" ${DISTDIR}/plsworkgps.X.${IMAGE_TYPE}.hex ../../../eee192_GPS/plsworkgps.X/..\..\eee192_GPS_secure\plsworkgps_secure.X/dist/default/production/plsworkgps_secure.X.production.hex "..\..\gps testing_secure\plsworkgps_secure.X/dist/default/production/plsworkgps_secure.X.production.hex" -odist/${CND_CONF}/production/plsworkgps.X.production.unified.hex
 
 endif
 
@@ -258,11 +258,17 @@ ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 else
 	cd ../../../eee192_GPS/plsworkgps.X/../../eee192_GPS_secure/plsworkgps_secure.X && ${MAKE}  -f Makefile CONF=default
 endif
+ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+	cd "../../gps testing_secure/plsworkgps_secure.X" && ${MAKE}  -f Makefile CONF=default TYPE_IMAGE=DEBUG_RUN
+else
+	cd "../../gps testing_secure/plsworkgps_secure.X" && ${MAKE}  -f Makefile CONF=default
+endif
 
 
 # Subprojects
 .clean-subprojects:
 	cd ../../../eee192_GPS/plsworkgps.X/../../eee192_GPS_secure/plsworkgps_secure.X && rm -rf "build/default" "dist/default"
+	cd "../../gps testing_secure/plsworkgps_secure.X" && rm -rf "build/default" "dist/default"
 
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}

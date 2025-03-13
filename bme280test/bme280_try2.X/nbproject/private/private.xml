@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Shaquil/Documents/GitHub/cansat-eee192/bme280test/src/config/default/peripheral/sercom/usart/plib_sercom3_usart.c</file>
-            <file>file:/C:/Users/Shaquil/Documents/GitHub/cansat-eee192/bme280test/src/main.c</file>
-            <file>file:/C:/Users/Shaquil/Documents/GitHub/cansat-eee192/bme280test/src/config/default/peripheral/sercom/i2c_master/plib_sercom2_i2c_master.c</file>
-            <file>file:/C:/Users/Shaquil/Documents/GitHub/cansat-eee192/bme280test/bme280_try2.X/bme280.c</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

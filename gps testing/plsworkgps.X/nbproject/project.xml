@@ -10,6 +10,7 @@
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects>
                 <make-dep-project>../../../eee192_GPS/plsworkgps.X/..\..\eee192_GPS_secure\plsworkgps_secure.X</make-dep-project>
+                <make-dep-project>..\..\gps testing_secure\plsworkgps_secure.X</make-dep-project>
             </make-dep-projects>
             <sourceRootList/>
             <confList>
