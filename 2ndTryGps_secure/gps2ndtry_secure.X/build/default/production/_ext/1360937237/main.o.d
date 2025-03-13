@@ -87,10 +87,10 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/toolchain_specifics.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
  ../src/config/default/peripheral/evsys/plib_evsys.h \
- ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h
+ ../src/config/default/peripheral/nvic/plib_nvic.h \
+ ../src/config/default/peripheral/pm/plib_pm.h
 
 ../src/config/default/definitions.h:
 
@@ -270,10 +270,10 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/default/peripheral/evsys/plib_evsys.h:
 
-../src/config/default/peripheral/pm/plib_pm.h:
-
 ../src/config/default/peripheral/port/plib_port.h:
 
 ../src/config/default/peripheral/clock/plib_clock.h:
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
+
+../src/config/default/peripheral/pm/plib_pm.h:

@@ -1,77 +1,67 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "definitions.h"    // SYS function prototypes
+#include "definitions.h"    // Contains SERCOM0_USART_Initialize, SERCOM3_USART_Initialize, etc.
 #include <stdint.h>
 
-#define F_CPU 48000000UL         // CPU clock frequency: 48 MHz
-#define CYCLES_PER_MS (F_CPU / 1000UL)  // 48000 cycles per millisecond
-
-// Estimate the number of cycles each loop iteration takes.
-#define CYCLES_PER_LOOP 4UL       
+// 48 MHz system clock assumption
+#define F_CPU 48000000UL
+#define CYCLES_PER_MS (F_CPU / 1000UL)
+#define CYCLES_PER_LOOP 4UL
 #define LOOP_COUNT (CYCLES_PER_MS / CYCLES_PER_LOOP)
-
-// Define a smaller read size for the GPS data
-#define READ_SIZE 1
 
 void delay_ms(uint32_t ms) {
     volatile uint32_t count;
     while (ms--) {
         count = LOOP_COUNT;
         while (count--) {
-            // Empty loop for delay
+            // Simple busy-wait
         }
     }
 }
 
 int main(void)
 {
+    // Initialize system (clocks, NVIC, etc.)
     SYS_Initialize(NULL);
 
-    // --- Initialize SERCOM0 (GPS) ---
+    // Initialize SERCOM0 at 9600 (RX ring buffer) for GPS
     SERCOM0_USART_Initialize();
-    // Enable receiver so SERCOM0 can accept data from the GPS.
-    SERCOM0_USART_ReceiverEnable();
-    
-    // --- Initialize SERCOM3 (Debug Terminal) ---
+    // SERCOM0 is now ready to receive data in its ring buffer
+
+    // Initialize SERCOM3 at 9600 for debug output
     SERCOM3_USART_Initialize();
-    // Enable transmitter to send data to the terminal.
     SERCOM3_USART_TransmitterEnable();
 
-    // Write a welcome message to the debug terminal.
-    const char welcomeMsg[] = "Hello Terminal\r\n";
-    SERCOM3_USART_Write((void *)welcomeMsg, sizeof(welcomeMsg) - 1);
-    while (!SERCOM3_USART_TransmitComplete())
-    {
-        // Wait for the welcome message to be completely transmitted.
-    }
-
-    // Buffer to hold received data from GPS
-    uint8_t rxBuffer[READ_SIZE];
+    // Print a hello message so we know it's running
+    const char welcomeMsg[] = "GPS Bridge Started\r\n";
+    SERCOM3_USART_Write((uint8_t*)welcomeMsg, sizeof(welcomeMsg) - 1);
+    while (!SERCOM3_USART_TransmitComplete());
 
     while (1)
     {
-        // Start a non-blocking read from the GPS (SERCOM0) for READ_SIZE bytes.
-        if (SERCOM0_USART_Read(rxBuffer, READ_SIZE))
+        // 1) Check if SERCOM0 has any data (like ss.available() > 0)
+        size_t available = SERCOM0_USART_ReadCountGet();
+        if (available > 0)
         {
-            LED_PA15_Set();
-            // Wait until the read operation is complete.
-            while (SERCOM0_USART_ReadIsBusy());
-            LED_PA15_Clear();
-            
-            // Get the number of bytes received.
-            size_t numBytes = SERCOM0_USART_ReadCountGet();
+            // 2) Read one byte (like byte gpsData = ss.read();)
+            uint8_t gpsData;
+            size_t bytesRead = SERCOM0_USART_Read(&gpsData, 1);
 
-            if (numBytes > 0)
+            if (bytesRead == 1)
             {
-                // Forward the received data to the terminal using SERCOM3.
-                SERCOM3_USART_Write(rxBuffer, numBytes);
-                // Wait for the transmission to complete.
+                // 3) Write that byte to SERCOM3 (like Serial.write(gpsData);)
+                SERCOM3_USART_Write(&gpsData, 1);
                 while (!SERCOM3_USART_TransmitComplete());
             }
+        } else {
+            SERCOM3_USART_Write("No data to read.\r\n", 1);
         }
-        // Other processing can be done here.
+
+        // Optional small delay or other tasks
+        // delay_ms(1);
     }
 
+    // Normally never reached
     return 0;
 }
