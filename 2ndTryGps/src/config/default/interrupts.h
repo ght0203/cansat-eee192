@@ -63,6 +63,7 @@ void HardFault_Handler (void);
 void SVCall_Handler (void);
 void PendSV_Handler (void);
 void SERCOM0_USART_InterruptHandler (void);
+void SERCOM2_I2C_InterruptHandler (void);
 void SERCOM3_USART_InterruptHandler (void);
 
 

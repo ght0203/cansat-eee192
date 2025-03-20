@@ -115,12 +115,15 @@ void SYS_Initialize ( void* data )
   
 
 
-    NVIC_Initialize();
+
     SERCOM3_USART_Initialize();
+
+    SERCOM2_I2C_Initialize();
+
     SERCOM0_USART_Initialize();
 
 
-    
+    NVIC_Initialize();
 
 
     /* MISRAC 2012 deviation block end */
