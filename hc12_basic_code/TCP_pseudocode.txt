@@ -1,12 +1,22 @@
+FUNCTION Compute_Checksum(packet):
+    SUM = 0
+    FOR BYTE IN packet:
+        SUM = (SUM + BYTE) % 65536  // Keep within 16-bit range
+    RETURN SUM
+
 FUNCTION TCP_Send(data, length):
     index = 0
     SEQ_NUM = 0
     ACK_NUM = 0
 
     WHILE index < length:
-        chunk = data[index : index + 30]  // Get next 30 bytes
-        PADDING = 30 - LENGTH(chunk)  // Pad if needed
-        PACKET = [SEQ_NUM, ACK_NUM] + chunk + [0]*PADDING
+        chunk = data[index : index + 28]  // Get next 28 bytes
+        PADDING = 28 - LENGTH(chunk)  // Pad if needed
+        PACKET = [SEQ_NUM, ACK_NUM, 0, 0] + chunk + [0]*PADDING  // Placeholder for checksum
+
+        CHECKSUM = Compute_Checksum(PACKET)
+        PACKET[2] = CHECKSUM >> 8  // High byte
+        PACKET[3] = CHECKSUM & 0xFF  // Low byte
 
         SERCOM3_USART_Write((void *)PACKET, 32)  // Send data
 
@@ -15,10 +25,11 @@ FUNCTION TCP_Send(data, length):
             ACK_PACKET = SERCOM3_USART_Read()
             IF ACK_PACKET IS NOT EMPTY:
                 IF ACK_PACKET[0] == SEQ_NUM:  // Check if ACK matches
-                    SEQ_NUM = (SEQ_NUM + 1) % 256  // Update SEQ
-                    index = index + 30  // Move to next chunk
+                    SEQ_NUM = (SEQ_NUM + 1) % 256  // Update sequence number
+                    index = index + 28  // Move to next chunk
                     BREAK  // Proceed to next transmission
-
+					
+					
 FUNCTION TCP_Receive():
     BUFFER = []
     EXPECTED_SEQ = 0  // The sequence number we expect next
@@ -27,15 +38,30 @@ FUNCTION TCP_Receive():
         INCOMING_PACKET = SERCOM3_USART_Read()
         IF INCOMING_PACKET IS NOT EMPTY:
             SEQ_NUM = INCOMING_PACKET[0]
-            DATA = INCOMING_PACKET[2:32]  // Extract payload
+            CHECKSUM_RECEIVED = (INCOMING_PACKET[2] << 8) | INCOMING_PACKET[3]
+            DATA = INCOMING_PACKET[4:32]  // Extract payload
+
+            // Verify checksum
+            TEMP_PACKET = INCOMING_PACKET
+            TEMP_PACKET[2] = 0
+            TEMP_PACKET[3] = 0
+            COMPUTED_CHECKSUM = Compute_Checksum(TEMP_PACKET)
+
+            IF CHECKSUM_RECEIVED != COMPUTED_CHECKSUM:
+                PRINT("Checksum mismatch! Requesting retransmission.")
+                CONTINUE  // Ignore corrupted packet
 
             IF SEQ_NUM == EXPECTED_SEQ:  // Only accept expected sequence
                 BUFFER.APPEND(DATA)
                 EXPECTED_SEQ = (EXPECTED_SEQ + 1) % 256  // Update expected SEQ
 
-            // Send ACK (even if out-of-order, ACK should be last valid SEQ)
-            ACK_PACKET = [SEQ_NUM, EXPECTED_SEQ] + [0]*30
+            // Send ACK (even for retransmissions)
+            ACK_PACKET = [SEQ_NUM, EXPECTED_SEQ, 0, 0] + [0]*28
+            CHECKSUM_ACK = Compute_Checksum(ACK_PACKET)
+            ACK_PACKET[2] = CHECKSUM_ACK >> 8
+            ACK_PACKET[3] = CHECKSUM_ACK & 0xFF
             SERCOM3_USART_Write((void *)ACK_PACKET, 32)
 
             IF LAST_PACKET(DATA):  // Logic to detect message end
                 RETURN BUFFER  // Return fully received message
+
