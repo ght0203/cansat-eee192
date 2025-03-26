@@ -1,0 +1,41 @@
+FUNCTION TCP_Send(data, length):
+    index = 0
+    SEQ_NUM = 0
+    ACK_NUM = 0
+
+    WHILE index < length:
+        chunk = data[index : index + 30]  // Get next 30 bytes
+        PADDING = 30 - LENGTH(chunk)  // Pad if needed
+        PACKET = [SEQ_NUM, ACK_NUM] + chunk + [0]*PADDING
+
+        SERCOM3_USART_Write((void *)PACKET, 32)  // Send data
+
+        // Wait for ACK
+        WHILE TRUE:
+            ACK_PACKET = SERCOM3_USART_Read()
+            IF ACK_PACKET IS NOT EMPTY:
+                IF ACK_PACKET[0] == SEQ_NUM:  // Check if ACK matches
+                    SEQ_NUM = (SEQ_NUM + 1) % 256  // Update SEQ
+                    index = index + 30  // Move to next chunk
+                    BREAK  // Proceed to next transmission
+
+FUNCTION TCP_Receive():
+    BUFFER = []
+    EXPECTED_SEQ = 0  // The sequence number we expect next
+
+    WHILE TRUE:
+        INCOMING_PACKET = SERCOM3_USART_Read()
+        IF INCOMING_PACKET IS NOT EMPTY:
+            SEQ_NUM = INCOMING_PACKET[0]
+            DATA = INCOMING_PACKET[2:32]  // Extract payload
+
+            IF SEQ_NUM == EXPECTED_SEQ:  // Only accept expected sequence
+                BUFFER.APPEND(DATA)
+                EXPECTED_SEQ = (EXPECTED_SEQ + 1) % 256  // Update expected SEQ
+
+            // Send ACK (even if out-of-order, ACK should be last valid SEQ)
+            ACK_PACKET = [SEQ_NUM, EXPECTED_SEQ] + [0]*30
+            SERCOM3_USART_Write((void *)ACK_PACKET, 32)
+
+            IF LAST_PACKET(DATA):  // Logic to detect message end
+                RETURN BUFFER  // Return fully received message
