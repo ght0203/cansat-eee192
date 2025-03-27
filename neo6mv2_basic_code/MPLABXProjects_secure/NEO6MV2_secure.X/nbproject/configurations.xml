@@ -436,6 +436,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/Shaquil/Documents/GitHub/cansat-eee192/neo6mv2_basic_code/MPLABXProjects_secure/NEO6MV2_secure.X/debug/default/NEO6MV2_secure_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

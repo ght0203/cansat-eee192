@@ -67,10 +67,52 @@ void SerialPrint(const char *str)
 
 void SerialRead(char *buffer, size_t size)
 {
-    if (SERCOM0_USART_Read(buffer, size))  // Start UART read
+    if (SERCOM1_USART_Read(buffer, size))  // Start UART read
     {
-        while (SERCOM0_USART_ReadIsBusy());  // Wait until read is complete
+        while (SERCOM1_USART_ReadIsBusy());  // Wait until read is complete
     }
+}
+
+void TCC0_TimerInitialize( void )
+{
+    /* Reset TCC */
+    TCC0_REGS->TCC_CTRLA = TCC_CTRLA_SWRST_Msk;
+
+    while((TCC0_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_SWRST_Msk) == TCC_SYNCBUSY_SWRST_Msk)
+    {
+        /* Wait for Write Synchronization */
+    }
+
+    /* Configure counter mode & prescaler */
+    TCC0_REGS->TCC_CTRLA = TCC_CTRLA_PRESCALER_DIV1024 ;
+    /* Configure in Match Frequency Mode */
+    TCC0_REGS->TCC_WAVE = TCC_WAVE_WAVEGEN_NFRQ;
+
+    /* Configure timer one shot mode */
+    TCC0_REGS->TCC_CTRLBSET = (uint8_t)TCC_CTRLBSET_ONESHOT_Msk;
+    /* Configure timer period */
+    TCC0_REGS->TCC_PER = 234374U;
+
+    /* Clear all interrupt flags */
+    TCC0_REGS->TCC_INTFLAG = TCC_INTFLAG_Msk;
+
+    /* Enable interrupt*/
+    TCC0_REGS->TCC_INTENSET = (TCC_INTENSET_OVF_Msk);
+
+
+    while((TCC0_REGS->TCC_SYNCBUSY) != 0U)
+    {
+        /* Wait for Write Synchronization */
+    }
+}
+
+
+void __attribute__((used)) TCC0_InterruptHandler( void )
+{
+    /* Clear interrupt flags */
+    TCC0_REGS->TCC_INTFLAG = TCC_INTFLAG_Msk;
+    (void)TCC0_REGS->TCC_INTFLAG;
+    delay_pause = 0;
 }
 
 int main ( void )
@@ -93,7 +135,8 @@ int main ( void )
         NonSecure_ResetHandler();
     }
     
-    
+    TCC0_TimerInitialize();
+    TCC0_InterruptHandler();
     
     SerialPrint("Hello\r\n");
     while ( true )
