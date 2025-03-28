@@ -196,6 +196,7 @@
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
                 <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom5_usart.c</itemPath>
                 <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom3_usart.c</itemPath>
+                <itemPath>../../../pms7003_basic_code_V2/Project.X/plib_sercom_usart_common.h</itemPath>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="tcc" displayName="tcc" projectFiles="true">
@@ -218,6 +219,9 @@
       <itemPath>../src/main.c</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../pms7003_basic_code_V2/Project.X</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
@@ -228,7 +232,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>nEdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>4.45</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -443,6 +447,11 @@
         <property key="stack-smashing" value=""/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
+      <nEdbgTool>
+        <property key="memories.programmemory.ranges" value="0-7ffff"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/emmanuel.john.bonifa/Workspace/cansat-eee192/hc12_basic_code/MPLabProject_secure/HC12_secure.X/debug/default/HC12_secure_ptg"/>
+      </nEdbgTool>
     </conf>
   </confs>
 </configurationDescriptor>

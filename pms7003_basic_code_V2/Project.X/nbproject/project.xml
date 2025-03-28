@@ -3,13 +3,13 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>HC12_secure</name>
-            <creation-uuid>837fb8cb-817a-4f1f-a66e-36d0289ebc7c</creation-uuid>
+            <name>Project</name>
+            <creation-uuid>e1a45608-f08f-4801-b02b-93d3cd42454c</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>../../../pms7003_basic_code_V2/Project.X</sourceRootElem>
+                <sourceRootElem>.</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
