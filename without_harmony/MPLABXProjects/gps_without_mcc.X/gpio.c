@@ -347,7 +347,7 @@ void platform_init(void)
 	PB_init();
 	GPO_init();
 	platform_usart_init();
-    platform_usart_pms_init();
+    platform_usart_gps_init();
 	
 	// Late initialization
 	EIC_init_late();

@@ -4,15 +4,15 @@
 #include <stdbool.h>
 #include "platform.h"
 
-#define PMS_START_BYTE_1 0x42
-#define PMS_START_BYTE_2 0x4D
+// For GPS, we typically look for an NMEA sentence start character, e.g., '$'
+#define GPS_START_BYTE '$'
 
-#define FLAG_PMS7003_RECEIVED (1 << 0)
+#define FLAG_GPS_RECEIVED (1 << 0)
 
 static const char banner_msg[] =
 "\033[0m\033[2J\033[1;1H"
 "+-----------------------------------------------------------+\r\n"
-"| EEE 192: PMS7003 Sensor Readings                          |\r\n"
+"| EEE 192: GPS Module Readings                              |\r\n"
 "+-----------------------------------------------------------+\r\n";
 
 typedef struct prog_state_type {
@@ -27,7 +27,7 @@ typedef struct prog_state_type {
 static void prog_setup(prog_state_t *ps) {
     platform_init();
     platform_usart_init();
-    platform_usart_pms_init();
+    platform_usart_gps_init();
     
     // Send the banner message
     ps->tx_desc[0].buf = banner_msg;
@@ -36,37 +36,34 @@ static void prog_setup(prog_state_t *ps) {
 
     ps->rx_desc.buf = ps->rx_desc_buf;
     ps->rx_desc.max_len = sizeof(ps->rx_desc_buf);
-    platform_usart_pms_rx_async(&ps->rx_desc);
+    platform_usart_gps_rx_async(&ps->rx_desc);
 }
 
-static void PMS7003_Read(prog_state_t *ps) {
-    if (!platform_usart_pms_rx_busy() && sizeof(ps->rx_desc_buf) >= 32) {
+static void gps_read(prog_state_t *ps) {
+    if (!platform_usart_gps_rx_busy() && sizeof(ps->rx_desc_buf) >= 32) {
         uint8_t *buffer = (uint8_t *)ps->rx_desc_buf;
         
-        if (buffer[0] == PMS_START_BYTE_1 && buffer[1] == PMS_START_BYTE_2) {  
-            uint16_t pm1_0 = (buffer[10] << 8) | buffer[11]; 
-            uint16_t pm2_5 = (buffer[12] << 8) | buffer[13]; 
-            uint16_t pm10  = (buffer[14] << 8) | buffer[15]; 
-
-            snprintf(ps->tx_buf, sizeof(ps->tx_buf), 
-                     "PM1.0: %u µg/m³, PM2.5: %u µg/m³, PM10: %u µg/m³\r\n", 
-                     pm1_0, pm2_5, pm10);
+        // Check if the first character indicates an NMEA sentence (e.g., '$')
+        if (buffer[0] == GPS_START_BYTE) {  
+            // Example: Process the NMEA sentence here.
+            // (Parsing logic should be added based on your GPS module's output.)
+            snprintf(ps->tx_buf, sizeof(ps->tx_buf), "Received GPS data: %s\r\n", buffer);
         }
 
-        // Send to USB CDC
+        // Send the processed data to USB CDC
         ps->tx_desc[0].buf = ps->tx_buf;
         ps->tx_desc[0].len = strlen(ps->tx_buf);
         platform_usart_cdc_tx_async(&ps->tx_desc[0], 1);
 
         // Restart reception
         memset(ps->rx_desc_buf, 0, sizeof(ps->rx_desc_buf)); // Clear buffer before next read
-        platform_usart_pms_rx_async(&ps->rx_desc);
+        platform_usart_gps_rx_async(&ps->rx_desc);
     }
 }
 
 static void prog_loop_one(prog_state_t *ps) {
     platform_do_loop_one();
-    PMS7003_Read(ps);
+    gps_read(ps);
 }
 
 int main(void) {

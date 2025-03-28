@@ -2,7 +2,7 @@
  * @file  platform.h
  * @brief Declarations for platform-support routines
  *
- * @author Alberto de Villa <alberto.de.villa@eee.upd.edu.ph>
+ * @author ...
  * @date   28 Oct 2024
  */
 
@@ -184,7 +184,7 @@ typedef struct platform_usart_tx_desc_type
 } platform_usart_tx_bufdesc_t;
 
 /**
- * Enqueue an array of fragments for transmission
+ * Enqueue an array of fragments for transmission (CDC channel)
  * 
  * @note
  * All fragment-array elements and source buffer/s must remain valid for the
@@ -199,26 +199,29 @@ typedef struct platform_usart_tx_desc_type
 bool platform_usart_cdc_tx_async(const platform_usart_tx_bufdesc_t *desc,
 				 unsigned int nr_desc);
 
-/// Abort an ongoing transmission
+/// Abort an ongoing transmission (CDC channel)
 void platform_usart_cdc_tx_abort(void);
 
-/// Check whether a transmission is on-going
+/// Check whether a transmission is on-going (CDC channel)
 bool platform_usart_cdc_tx_busy(void);
 
 
-bool platform_usart_pms_tx_async(const platform_usart_tx_bufdesc_t *desc,
+/**
+ * Enqueue an array of fragments for transmission (GPS channel)
+ */
+bool platform_usart_gps_tx_async(const platform_usart_tx_bufdesc_t *desc,
 				 unsigned int nr_desc);
 
-/// Abort an ongoing transmission
-void platform_usart_pms_tx_abort(void);
+/// Abort an ongoing transmission (GPS channel)
+void platform_usart_gps_tx_abort(void);
 
-/// Check whether a transmission is on-going
-bool platform_usart_pms_tx_busy(void);
+/// Check whether a transmission is on-going (GPS channel)
+bool platform_usart_gps_tx_busy(void);
 
  
 
 /**
- * Enqueue a request for data reception
+ * Enqueue a request for data reception (CDC channel)
  * 
  * @note
  * Both descriptor and target buffer must remain valid for the entire time
@@ -231,22 +234,23 @@ bool platform_usart_pms_tx_busy(void);
  */
 bool platform_usart_cdc_rx_async(platform_usart_rx_async_desc_t *desc);
 
-/// Abort an ongoing transmission
+/// Abort an ongoing transmission (CDC channel)
 void platform_usart_cdc_rx_abort(void);
 
-/// Check whether a reception is on-going
+/// Check whether a reception is on-going (CDC channel)
 bool platform_usart_cdc_rx_busy(void);
 
 
-bool platform_usart_pms_rx_async(platform_usart_rx_async_desc_t *desc);
+/**
+ * Enqueue a request for data reception (GPS channel)
+ */
+bool platform_usart_gps_rx_async(platform_usart_rx_async_desc_t *desc);
 
-/// Abort an ongoing transmission
-void platform_usart_pms_rx_abort(void);
+/// Abort an ongoing transmission (GPS channel)
+void platform_usart_gps_rx_abort(void);
 
-/// Check whether a reception is on-going
-bool platform_usart_pms_rx_busy(void);
-
-
+/// Check whether a reception is on-going (GPS channel)
+bool platform_usart_gps_rx_busy(void);
 
 //////////////////////////////////////////////////////////////////////////////
 
