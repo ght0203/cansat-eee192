@@ -66,8 +66,7 @@ static bool is_valid_nmea_sentence(const char* sentence) {
     if (sentence[0] != '$') return false;
     
     // Basic validation for GPGGA or GPRMC
-    if (strncmp(sentence, "$GPGGA", 6) != 0 && 
-        strncmp(sentence, "$GPRMC", 6) != 0) {
+    if (strncmp(sentence, "$GPGGA", 6) != 0) {
         return false;
     }
     

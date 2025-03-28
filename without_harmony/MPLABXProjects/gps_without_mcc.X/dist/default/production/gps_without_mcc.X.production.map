@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
-                              C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o (__pic32c_data_initialization)
+                              C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o (__pic32c_data_initialization)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
                               build/default/production/main.o (memset)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
@@ -9,7 +9,7 @@ c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../.
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strncmp.o)
                               build/default/production/main.o (strncmp)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
-                              C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o (__libc_init_array)
+                              C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o (__libc_init_array)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
                               c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o) (__progname_full)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
@@ -55,45 +55,45 @@ section                    address  length [bytes]      (dec)  Description
 .text.__printf_core          0xfd0          0x330         816   
 .text                       0x1300          0x32e         814  App's exec code 
 .text.Dummy_Handler         0x162e            0x2           2   
-.text                       0x1630          0x2b0         688  App's exec code 
-.rodata                     0x18e0           0xe0         224  Read-only const 
-.text.__pop_int             0x19c0           0xb6         182   
-.text.__dummy               0x1a76            0x2           2   
-.dinit                      0x1a78           0x80         128   
-.text.Reset_Handler         0x1af8           0x7e         126   
-.text.__pad                 0x1b76           0x7a         122   
-.text.__pop_ptr             0x1bf0           0x68         104   
-.text.__libc_start_init     0x1c58           0x5c          92   
-.text.__fmt_s               0x1cb4           0x4c          76   
-.text.__vsnprintf           0x1d00           0x4c          76   
-.text                       0x1d4c           0x40          64  App's exec code 
-.text.atoi                  0x1d8c           0x3e          62   
-.text.__fmt_state           0x1dcc           0x34          52   
-.text.__pic32c_data_ini     0x1e00           0x30          48   
-.text.__pop_float           0x1e30           0x2a          42   
-.text.__string_out          0x1e5a           0x28          40   
-.text.strncmp               0x1e82           0x26          38   
-.text.__dinit_copy          0x1ea8           0x1e          30   
-.text.strlen                0x1ec8           0x18          24   
-.text.__vfprintf            0x1ee0           0x18          24   
-.text.__wrap_snprintf       0x1ef8           0x16          22   
-.rodata                     0x1f0e           0x16          22  Read-only const 
-.rodata                     0x1f24           0x14          20  Read-only const 
-.text.memset                0x1f38           0x14          20   
-.text.memcpy                0x1f4c           0x14          20   
-.text.__dinit_clear         0x1f60           0x12          18   
-.text.tolower               0x1f72            0xe          14   
-.text.__sio_snprintf_cn     0x1f80            0xc          12   
-.rodata.str1.1              0x1f8c            0x8           8   
-.text.__tolower_l           0x1f94            0x8           8   
-.rodata.str1.1              0x1f9c            0x7           7   
-.text.__dummy_decompres     0x1fa4            0x4           4   
-.text.__dummy_fmt3          0x1fa8            0x4           4   
-.text.__dummy_fmt4          0x1fac            0x4           4   
-.text.__dummy_fmts          0x1fb0            0x4           4   
-      Total ROM used  :      0x1faf        8111  3.1% of 0x40000
+.text                       0x1630          0x29c         668  App's exec code 
+.rodata                     0x18cc           0xd8         216  Read-only const 
+.text.__pop_int             0x19a4           0xb6         182   
+.text.__dummy               0x1a5a            0x2           2   
+.dinit                      0x1a5c           0x80         128   
+.text.Reset_Handler         0x1adc           0x7e         126   
+.text.__pad                 0x1b5a           0x7a         122   
+.text.__pop_ptr             0x1bd4           0x68         104   
+.text.__libc_start_init     0x1c3c           0x5c          92   
+.text.__fmt_s               0x1c98           0x4c          76   
+.text.__vsnprintf           0x1ce4           0x4c          76   
+.text                       0x1d30           0x40          64  App's exec code 
+.text.atoi                  0x1d70           0x3e          62   
+.text.__fmt_state           0x1db0           0x34          52   
+.text.__pic32c_data_ini     0x1de4           0x30          48   
+.text.__pop_float           0x1e14           0x2a          42   
+.text.__string_out          0x1e3e           0x28          40   
+.text.strncmp               0x1e66           0x26          38   
+.text.__dinit_copy          0x1e8c           0x1e          30   
+.text.strlen                0x1eac           0x18          24   
+.text.__vfprintf            0x1ec4           0x18          24   
+.text.__wrap_snprintf       0x1edc           0x16          22   
+.rodata                     0x1ef2           0x16          22  Read-only const 
+.rodata                     0x1f08           0x14          20  Read-only const 
+.text.memset                0x1f1c           0x14          20   
+.text.memcpy                0x1f30           0x14          20   
+.text.__dinit_clear         0x1f44           0x12          18   
+.text.tolower               0x1f56            0xe          14   
+.text.__sio_snprintf_cn     0x1f64            0xc          12   
+.rodata.str1.1              0x1f70            0x8           8   
+.text.__tolower_l           0x1f78            0x8           8   
+.rodata.str1.1              0x1f80            0x7           7   
+.text.__dummy_decompres     0x1f88            0x4           4   
+.text.__dummy_fmt3          0x1f8c            0x4           4   
+.text.__dummy_fmt4          0x1f90            0x4           4   
+.text.__dummy_fmts          0x1f94            0x4           4   
+      Total ROM used  :      0x1f93        8083  3.1% of 0x40000
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x1faf        8111  3.1% of 0x40000
+         Total Program Memory used  :      0x1f93        8083  3.1% of 0x40000
         --------------------------------------------------------------------------
 
 
@@ -131,9 +131,9 @@ Microchip PIC32 Memory-Usage Report By Module
         2092           0          88        2180         884    usart.o                build/default/production/usart.o
         1576           0           2        1578         62a    gpio.o                 build/default/production/gpio.o
         1072           0           0        1072         430    __printf_core.o        libc-musl.a
-         912           0           0         912         390    main.o                 build/default/production/main.o
+         884           0           0         884         374    main.o                 build/default/production/main.o
          814           0          12         826         33a    systick.o              build/default/production/systick.o
-         476           0           0         476         1dc    ccg3Mxxo.o             C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+         476           0           0         476         1dc    cceW49zq.o             C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
          182           0           0         182          b6    __pop_int.o            libc-musl.a
          128           0           0         128          80    data_init              data_init
          104           0           0         104          68    __pop_ptr.o            libc-musl.a
@@ -160,7 +160,7 @@ Microchip PIC32 Memory-Usage Report By Module
            0           4           0           4           4    crtend.o               c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
            0           0           4           4           4    __errno_location.o     libc-musl.a
 --------------------------------------------------------------------------------
-        8111           8         222        8341        2095    dist/default/production/gps_without_mcc.X.production.elf
+        8083           8         222        8313        2079    dist/default/production/gps_without_mcc.X.production.elf
 
 
 Discarded input sections
@@ -282,7 +282,7 @@ LOAD build/default/production/main.o
 LOAD build/default/production/systick.o
 LOAD build/default/production/usart.o
                 0x0000000000000001                __MPLAB_BUILD = 0x1
-LOAD C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+LOAD C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
 START GROUP
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a
@@ -332,7 +332,7 @@ LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/th
                 0x0000000000000000                _sfixed = .
  *(.vectors .vectors.* .vectors_default .vectors_default.*)
  .vectors.default
-                0x0000000000000000      0x15c C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+                0x0000000000000000      0x15c C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
                 0x0000000000000000                exception_table
  *(.isr_vector)
  *(.reset*)
@@ -429,7 +429,7 @@ LOAD stack
  .ARM.attributes
                 0x00000000000000e2       0x30 build/default/production/usart.o
  .ARM.attributes
-                0x0000000000000112       0x30 C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+                0x0000000000000112       0x30 C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
  .ARM.attributes
                 0x0000000000000142       0x30 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
  .ARM.attributes
@@ -484,7 +484,7 @@ LOAD stack
  .comment       0x000000000000002b       0x2c build/default/production/main.o
  .comment       0x000000000000002b       0x2c build/default/production/systick.o
  .comment       0x000000000000002b       0x2c build/default/production/usart.o
- .comment       0x000000000000002b       0x2c C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+ .comment       0x000000000000002b       0x2c C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
  .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
  .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
  .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
@@ -637,32 +637,32 @@ LOAD stack
  .debug_aranges
                 0x0000000000000338       0x20 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
 
-.debug_line     0x0000000000000000     0x2cac
+.debug_line     0x0000000000000000     0x2ca6
  .debug_line    0x0000000000000000      0x4d2 build/default/production/gpio.o
- .debug_line    0x00000000000004d2      0x198 build/default/production/main.o
- .debug_line    0x000000000000066a      0x2c1 build/default/production/systick.o
- .debug_line    0x000000000000092b      0x49b build/default/production/usart.o
- .debug_line    0x0000000000000dc6       0x8e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
- .debug_line    0x0000000000000e54       0xe3 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
- .debug_line    0x0000000000000f37       0xee c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
- .debug_line    0x0000000000001025       0xec c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strncmp.o)
- .debug_line    0x0000000000001111      0x1bf c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
- .debug_line    0x00000000000012d0       0xb5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
- .debug_line    0x0000000000001385      0x1a0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
- .debug_line    0x0000000000001525      0x204 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_s.o)
- .debug_line    0x0000000000001729      0x1c8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
- .debug_line    0x00000000000018f1      0x6c5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
- .debug_line    0x0000000000001fb6      0x173 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
- .debug_line    0x0000000000002129      0x15c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
- .debug_line    0x0000000000002285       0xfb c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
- .debug_line    0x0000000000002380       0x9a c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
- .debug_line    0x000000000000241a      0x1c4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
- .debug_line    0x00000000000025de      0x166 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
- .debug_line    0x0000000000002744      0x211 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
- .debug_line    0x0000000000002955      0x172 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
- .debug_line    0x0000000000002ac7       0xee c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
- .debug_line    0x0000000000002bb5       0x6f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
- .debug_line    0x0000000000002c24       0x88 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+ .debug_line    0x00000000000004d2      0x192 build/default/production/main.o
+ .debug_line    0x0000000000000664      0x2c1 build/default/production/systick.o
+ .debug_line    0x0000000000000925      0x49b build/default/production/usart.o
+ .debug_line    0x0000000000000dc0       0x8e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_line    0x0000000000000e4e       0xe3 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_line    0x0000000000000f31       0xee c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_line    0x000000000000101f       0xec c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strncmp.o)
+ .debug_line    0x000000000000110b      0x1bf c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_line    0x00000000000012ca       0xb5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .debug_line    0x000000000000137f      0x1a0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
+ .debug_line    0x000000000000151f      0x204 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_s.o)
+ .debug_line    0x0000000000001723      0x1c8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_line    0x00000000000018eb      0x6c5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_line    0x0000000000001fb0      0x173 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_line    0x0000000000002123      0x15c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_line    0x000000000000227f       0xfb c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .debug_line    0x000000000000237a       0x9a c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .debug_line    0x0000000000002414      0x1c4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_line    0x00000000000025d8      0x166 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_line    0x000000000000273e      0x211 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_line    0x000000000000294f      0x172 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_line    0x0000000000002ac1       0xee c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_line    0x0000000000002baf       0x6f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_line    0x0000000000002c1e       0x88 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
 
 .debug_str      0x0000000000000000     0x59d9
  .debug_str     0x0000000000000000     0x10e8 build/default/production/gpio.o
@@ -871,7 +871,7 @@ LOAD stack
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
 
 .bss%z20        0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+ .bss           0x0000000000000000        0x0 C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
 
 .bss%z21        0x0000000000000000        0x0
  .bss           0x0000000000000000        0x0 build/default/production/main.o
@@ -956,7 +956,7 @@ LOAD stack
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
 
 .data%z46       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+ .data          0x0000000000000000        0x0 C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
 
 .data%z47       0x0000000000000000        0x0
  .data          0x0000000000000000        0x0 build/default/production/usart.o
@@ -1018,205 +1018,205 @@ LOAD stack
                 0x00000000000014c6                platform_tick_hrcount
                 0x000000000000154e                platform_tick_delta
 
-.text%15        0x0000000000001630      0x2b0
- .text          0x0000000000001630      0x2b0 build/default/production/main.o
-                0x00000000000018c2                main
+.text%15        0x0000000000001630      0x29c
+ .text          0x0000000000001630      0x29c build/default/production/main.o
+                0x00000000000018ac                main
 
-.rodata%16      0x00000000000018e0       0xe0
- .rodata        0x00000000000018e0       0xe0 build/default/production/main.o
+.rodata%16      0x00000000000018cc       0xd8
+ .rodata        0x00000000000018cc       0xd8 build/default/production/main.o
 
 .text.__pop_int%17
-                0x00000000000019c0       0xb6
+                0x00000000000019a4       0xb6
  .text.__pop_int
-                0x00000000000019c0       0xb6 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
-                0x00000000000019c0                __pop_int_needed
-                0x00000000000019c0                __pop_int
+                0x00000000000019a4       0xb6 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+                0x00000000000019a4                __pop_int_needed
+                0x00000000000019a4                __pop_int
 
-.dinit%18       0x0000000000001a78       0x80
- .dinit         0x0000000000001a78       0x80 data_init
+.dinit%18       0x0000000000001a5c       0x80
+ .dinit         0x0000000000001a5c       0x80 data_init
 
 .text.Reset_Handler%19
-                0x0000000000001af8       0x7e
+                0x0000000000001adc       0x7e
  .text.Reset_Handler
-                0x0000000000001af8       0x7e C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
-                0x0000000000001af8                Reset_Handler
+                0x0000000000001adc       0x7e C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
+                0x0000000000001adc                Reset_Handler
 
-.text.__pad%20  0x0000000000001b76       0x7a
- .text.__pad    0x0000000000001b76       0x7a c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
-                0x0000000000001b76                __pad
+.text.__pad%20  0x0000000000001b5a       0x7a
+ .text.__pad    0x0000000000001b5a       0x7a c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001b5a                __pad
 
 .text.__pop_ptr%21
-                0x0000000000001bf0       0x68
+                0x0000000000001bd4       0x68
  .text.__pop_ptr
-                0x0000000000001bf0       0x68 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
-                0x0000000000001bf0                __pop_ptr
-                0x0000000000001bf0                __pop_ptr_needed
+                0x0000000000001bd4       0x68 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+                0x0000000000001bd4                __pop_ptr
+                0x0000000000001bd4                __pop_ptr_needed
 
 .text.__libc_start_init%22
-                0x0000000000001c58       0x5c
+                0x0000000000001c3c       0x5c
  .text.__libc_start_init
-                0x0000000000001c58       0x5c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
-                0x0000000000001c58                __libc_init_array
+                0x0000000000001c3c       0x5c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+                0x0000000000001c3c                __libc_init_array
 
 .text.__fmt_s%23
-                0x0000000000001cb4       0x4c
- .text.__fmt_s  0x0000000000001cb4       0x4c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_s.o)
-                0x0000000000001cb4                __fmt_s
-                0x0000000000001cb4                __fmt_0_needed
-                0x0000000000001cb4                __fmt_s_needed
+                0x0000000000001c98       0x4c
+ .text.__fmt_s  0x0000000000001c98       0x4c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_s.o)
+                0x0000000000001c98                __fmt_s
+                0x0000000000001c98                __fmt_0_needed
+                0x0000000000001c98                __fmt_s_needed
 
 .text.__vsnprintf%24
-                0x0000000000001d00       0x4c
+                0x0000000000001ce4       0x4c
  .text.__vsnprintf
-                0x0000000000001d00       0x4c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
-                0x0000000000001d00                __vsnprintf
+                0x0000000000001ce4       0x4c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+                0x0000000000001ce4                __vsnprintf
 
-.text%25        0x0000000000001d4c       0x40
- .text          0x0000000000001d4c       0x40 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+.text%25        0x0000000000001d30       0x40
+ .text          0x0000000000001d30       0x40 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
 
-.text.atoi%26   0x0000000000001d8c       0x3e
- .text.atoi     0x0000000000001d8c       0x3e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
-                0x0000000000001d8c                atoi
+.text.atoi%26   0x0000000000001d70       0x3e
+ .text.atoi     0x0000000000001d70       0x3e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+                0x0000000000001d70                atoi
 
 .text.__fmt_state%27
-                0x0000000000001dcc       0x34
+                0x0000000000001db0       0x34
  .text.__fmt_state
-                0x0000000000001dcc       0x34 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
-                0x0000000000001dcc                __fmt_state
+                0x0000000000001db0       0x34 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001db0                __fmt_state
 
 .text.__pic32c_data_initialization%28
-                0x0000000000001e00       0x30
+                0x0000000000001de4       0x30
  .text.__pic32c_data_initialization
-                0x0000000000001e00       0x30 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
-                0x0000000000001e00                __pic32c_data_initialization
+                0x0000000000001de4       0x30 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+                0x0000000000001de4                __pic32c_data_initialization
 
 .text.__pop_float%29
-                0x0000000000001e30       0x2a
+                0x0000000000001e14       0x2a
  .text.__pop_float
-                0x0000000000001e30       0x2a c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
-                0x0000000000001e30                __pop_float_needed
-                0x0000000000001e30                __pop_float
+                0x0000000000001e14       0x2a c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+                0x0000000000001e14                __pop_float_needed
+                0x0000000000001e14                __pop_float
 
 .text.__string_out%30
-                0x0000000000001e5a       0x28
+                0x0000000000001e3e       0x28
  .text.__string_out
-                0x0000000000001e5a       0x28 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
-                0x0000000000001e5a                __out
+                0x0000000000001e3e       0x28 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001e3e                __out
 
 .text.strncmp%31
-                0x0000000000001e82       0x26
- .text.strncmp  0x0000000000001e82       0x26 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strncmp.o)
-                0x0000000000001e82                strncmp
+                0x0000000000001e66       0x26
+ .text.strncmp  0x0000000000001e66       0x26 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strncmp.o)
+                0x0000000000001e66                strncmp
 
 .text.__dinit_copy%32
-                0x0000000000001ea8       0x1e
+                0x0000000000001e8c       0x1e
  .text.__dinit_copy
-                0x0000000000001ea8       0x1e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
-                0x0000000000001ea8                __dinit_copy_needed
-                0x0000000000001ea8                __dinit_copy
+                0x0000000000001e8c       0x1e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+                0x0000000000001e8c                __dinit_copy_needed
+                0x0000000000001e8c                __dinit_copy
 
 .text.strlen%33
-                0x0000000000001ec8       0x18
- .text.strlen   0x0000000000001ec8       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
-                0x0000000000001ec8                strlen
+                0x0000000000001eac       0x18
+ .text.strlen   0x0000000000001eac       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+                0x0000000000001eac                strlen
 
 .text.__vfprintf%34
-                0x0000000000001ee0       0x18
+                0x0000000000001ec4       0x18
  .text.__vfprintf
-                0x0000000000001ee0       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
-                0x0000000000001ee0                __vfprintf
+                0x0000000000001ec4       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+                0x0000000000001ec4                __vfprintf
 
 .text.__wrap_snprintf%35
-                0x0000000000001ef8       0x16
+                0x0000000000001edc       0x16
  .text.__wrap_snprintf
-                0x0000000000001ef8       0x16 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
-                0x0000000000001ef8                _dsnprintf_cns
-                0x0000000000001ef8                _snprintf_cns
+                0x0000000000001edc       0x16 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
+                0x0000000000001edc                _dsnprintf_cns
+                0x0000000000001edc                _snprintf_cns
 
-.rodata%36      0x0000000000001f0e       0x16
- .rodata        0x0000000000001f0e       0x16 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+.rodata%36      0x0000000000001ef2       0x16
+ .rodata        0x0000000000001ef2       0x16 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
 
-.rodata%37      0x0000000000001f24       0x14
- .rodata        0x0000000000001f24       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+.rodata%37      0x0000000000001f08       0x14
+ .rodata        0x0000000000001f08       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
 
 .text.memset%38
-                0x0000000000001f38       0x14
- .text.memset   0x0000000000001f38       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
-                0x0000000000001f38                memset
+                0x0000000000001f1c       0x14
+ .text.memset   0x0000000000001f1c       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+                0x0000000000001f1c                memset
 
 .text.memcpy%39
-                0x0000000000001f4c       0x14
- .text.memcpy   0x0000000000001f4c       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
-                0x0000000000001f4c                memcpy
+                0x0000000000001f30       0x14
+ .text.memcpy   0x0000000000001f30       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+                0x0000000000001f30                memcpy
 
 .text.__dinit_clear%40
-                0x0000000000001f60       0x12
+                0x0000000000001f44       0x12
  .text.__dinit_clear
-                0x0000000000001f60       0x12 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
-                0x0000000000001f60                __dinit_clear
-                0x0000000000001f60                __dinit_clear_needed
+                0x0000000000001f44       0x12 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+                0x0000000000001f44                __dinit_clear
+                0x0000000000001f44                __dinit_clear_needed
 
 .text.tolower%41
-                0x0000000000001f72        0xe
- .text.tolower  0x0000000000001f72        0xe c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
-                0x0000000000001f72                tolower
+                0x0000000000001f56        0xe
+ .text.tolower  0x0000000000001f56        0xe c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+                0x0000000000001f56                tolower
 
 .text.__sio_snprintf_cns%42
-                0x0000000000001f80        0xc
+                0x0000000000001f64        0xc
  .text.__sio_snprintf_cns
-                0x0000000000001f80        0xc c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
-                0x0000000000001f80                __sio_snprintf_cns
+                0x0000000000001f64        0xc c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_cns.o)
+                0x0000000000001f64                __sio_snprintf_cns
 
 .rodata.str1.1%43
-                0x0000000000001f8c        0x8
+                0x0000000000001f70        0x8
  .rodata.str1.1
-                0x0000000000001f8c        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001f70        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
 
 .text.__tolower_l%44
-                0x0000000000001f94        0x8
+                0x0000000000001f78        0x8
  .text.__tolower_l
-                0x0000000000001f94        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
-                0x0000000000001f94                tolower_l
-                0x0000000000001f94                __tolower_l
+                0x0000000000001f78        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+                0x0000000000001f78                tolower_l
+                0x0000000000001f78                __tolower_l
 
 .rodata.str1.1%45
-                0x0000000000001f9c        0x7
+                0x0000000000001f80        0x7
  .rodata.str1.1
-                0x0000000000001f9c        0x7 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_s.o)
+                0x0000000000001f80        0x7 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_s.o)
 
 .text.__dummy_decompress%46
-                0x0000000000001fa4        0x4
+                0x0000000000001f88        0x4
  .text.__dummy_decompress
-                0x0000000000001fa4        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
-                0x0000000000001fa4                __dinit_decompress
-                0x0000000000001fa4                __dinit_copy_val_data
-                0x0000000000001fa4                __dinit_copy_emb
+                0x0000000000001f88        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+                0x0000000000001f88                __dinit_decompress
+                0x0000000000001f88                __dinit_copy_val_data
+                0x0000000000001f88                __dinit_copy_emb
 
 .text.__dummy_fmt3%47
-                0x0000000000001fa8        0x4
+                0x0000000000001f8c        0x4
  .text.__dummy_fmt3
-                0x0000000000001fa8        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
-                0x0000000000001fa8                __fmt_o
-                0x0000000000001fa8                __fmt_d
-                0x0000000000001fa8                __fmt_u
+                0x0000000000001f8c        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001f8c                __fmt_o
+                0x0000000000001f8c                __fmt_d
+                0x0000000000001f8c                __fmt_u
 
 .text.__dummy_fmt4%48
-                0x0000000000001fac        0x4
+                0x0000000000001f90        0x4
  .text.__dummy_fmt4
-                0x0000000000001fac        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
-                0x0000000000001fac                __fmt_fp
-                0x0000000000001fac                __fmt_x
-                0x0000000000001fac                __fmt_a
+                0x0000000000001f90        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001f90                __fmt_fp
+                0x0000000000001f90                __fmt_x
+                0x0000000000001f90                __fmt_a
 
 .text.__dummy_fmts%49
-                0x0000000000001fb0        0x4
+                0x0000000000001f94        0x4
  .text.__dummy_fmts
-                0x0000000000001fb0        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000001f94        0x4 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
 
 .text.Dummy_Handler%50
                 0x000000000000162e        0x2
  .text.Dummy_Handler
-                0x000000000000162e        0x2 C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+                0x000000000000162e        0x2 C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
                 0x000000000000162e                SVCall_Handler
                 0x000000000000162e                SERCOM0_2_Handler
                 0x000000000000162e                EVSYS_0_Handler
@@ -1294,10 +1294,10 @@ LOAD stack
                 0x000000000000162e                SERCOM2_0_Handler
 
 .text.__dummy%51
-                0x0000000000001a76        0x2
- .text.__dummy  0x0000000000001a76        0x2 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
-                0x0000000000001a76                __init_stdio
-                0x0000000000001a76                __init_host
+                0x0000000000001a5a        0x2
+ .text.__dummy  0x0000000000001a5a        0x2 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+                0x0000000000001a5a                __init_stdio
+                0x0000000000001a5a                __init_host
 
 .text%z53       0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
@@ -1369,7 +1369,7 @@ LOAD stack
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
 
 .text%z76       0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\Shaquil\AppData\Local\Temp\ccg3Mxxo.o
+ .text          0x0000000000000000        0x0 C:\Users\Shaquil\AppData\Local\Temp\cceW49zq.o
 
 .text%z77       0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
