@@ -88,11 +88,27 @@ void CLOCK_Initialize (void)
     DFLL48M_Initialize();
     GCLK0_Initialize();
 
+    /* Selection of the Generator and write Lock for SERCOM0_CORE */
+    GCLK_REGS->GCLK_PCHCTRL[17] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
+
+    while ((GCLK_REGS->GCLK_PCHCTRL[17] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
+    {
+        /* Wait for synchronization */
+    }
+
     
     /* Selection of the Generator and write Lock for SERCOM1_CORE */
     GCLK_REGS->GCLK_PCHCTRL[18] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
 
     while ((GCLK_REGS->GCLK_PCHCTRL[18] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
+    {
+        /* Wait for synchronization */
+    }
+
+    /* Selection of the Generator and write Lock for SERCOM2_CORE */
+    GCLK_REGS->GCLK_PCHCTRL[19] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
+
+    while ((GCLK_REGS->GCLK_PCHCTRL[19] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
     {
         /* Wait for synchronization */
     }
@@ -104,6 +120,15 @@ void CLOCK_Initialize (void)
     {
         /* Wait for synchronization */
     }
+
+    /* Selection of the Generator and write Lock for SERCOM4_CORE */
+    GCLK_REGS->GCLK_PCHCTRL[21] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
+
+    while ((GCLK_REGS->GCLK_PCHCTRL[21] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
+    {
+        /* Wait for synchronization */
+    }
+
     /* Selection of the Generator and write Lock for SERCOM5_CORE */
     GCLK_REGS->GCLK_PCHCTRL[22] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
 
@@ -111,6 +136,7 @@ void CLOCK_Initialize (void)
     {
         /* Wait for synchronization */
     }
+    
     /* Selection of the Generator and write Lock for TCC0 TCC1 */
     GCLK_REGS->GCLK_PCHCTRL[25] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
 
