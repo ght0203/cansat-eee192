@@ -232,7 +232,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>nEdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -447,6 +447,11 @@
         <property key="stack-smashing" value=""/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
+      <Tool>
+        <property key="memories.programmemory.ranges" value="0-7ffff"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/emmanuel.john.bonifa/Workspace/cansat-eee192/hc12_basic_code/MPLabProject_secure/HC12_secure.X/debug/default/HC12_secure_ptg"/>
+      </Tool>
       <nEdbgTool>
         <property key="memories.programmemory.ranges" value="0-7ffff"/>
         <property key="programmerToGoFilePath"

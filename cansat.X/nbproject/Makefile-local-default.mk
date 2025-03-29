@@ -34,5 +34,5 @@ MP_CPPC_DIR="D:\Programs\MPLab\xc32\v4.60\bin"
 MP_AS_DIR="D:\Programs\MPLab\xc32\v4.60\bin"
 MP_LD_DIR="D:\Programs\MPLab\xc32\v4.60\bin"
 MP_AR_DIR="D:\Programs\MPLab\xc32\v4.60\bin"
-DFP_DIR=D:/Programs/MPLab/packs/Microchip/PIC32CM-LS_DFP/1.3.278
 CMSIS_DIR=D:/Programs/MPLab/packs/arm/CMSIS/5.4.0
+DFP_DIR=D:/Programs/MPLab/packs/Microchip/PIC32CM-LS_DFP/1.3.278
