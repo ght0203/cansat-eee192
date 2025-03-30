@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=src/clock/clock.c src/hc12/sercom5_usart.c src/hc12/hc12.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c src/delay_timer/delay_timer.c src/pm_sensor/sercom1_usart.c src/pm_sensor/pm_sensor.c
+SOURCEFILES_QUOTED_IF_SPACED=src/clock/clock.c src/delay_timer/delay_timer.c src/hc12/sercom5_usart.c src/hc12/hc12.c src/pm_sensor/sercom1_usart.c src/pm_sensor/pm_sensor.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/hc12/sercom5_usart.o ${OBJECTDIR}/src/hc12/hc12.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/src/clock/clock.o.d ${OBJECTDIR}/src/hc12/sercom5_usart.o.d ${OBJECTDIR}/src/hc12/hc12.o.d ${OBJECTDIR}/src/usb_serial/sercom3_usart.o.d ${OBJECTDIR}/src/usb_serial/usb_serial.o.d ${OBJECTDIR}/src/main.o.d ${OBJECTDIR}/src/delay_timer/delay_timer.o.d ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d ${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/hc12/sercom5_usart.o ${OBJECTDIR}/src/hc12/hc12.o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/src/clock/clock.o.d ${OBJECTDIR}/src/delay_timer/delay_timer.o.d ${OBJECTDIR}/src/hc12/sercom5_usart.o.d ${OBJECTDIR}/src/hc12/hc12.o.d ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d ${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d ${OBJECTDIR}/src/usb_serial/sercom3_usart.o.d ${OBJECTDIR}/src/usb_serial/usb_serial.o.d ${OBJECTDIR}/src/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/hc12/sercom5_usart.o ${OBJECTDIR}/src/hc12/hc12.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o
+OBJECTFILES=${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/hc12/sercom5_usart.o ${OBJECTDIR}/src/hc12/hc12.o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o
 
 # Source Files
-SOURCEFILES=src/clock/clock.c src/hc12/sercom5_usart.c src/hc12/hc12.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c src/delay_timer/delay_timer.c src/pm_sensor/sercom1_usart.c src/pm_sensor/pm_sensor.c
+SOURCEFILES=src/clock/clock.c src/delay_timer/delay_timer.c src/hc12/sercom5_usart.c src/hc12/hc12.c src/pm_sensor/sercom1_usart.c src/pm_sensor/pm_sensor.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c
 
 # Pack Options 
 PACK_COMMON_OPTIONS=-I "${CMSIS_DIR}/CMSIS/Core/Include"
@@ -110,6 +110,12 @@ ${OBJECTDIR}/src/clock/clock.o: src/clock/clock.c  .generated_files/flags/defaul
 	@${RM} ${OBJECTDIR}/src/clock/clock.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/clock/clock.o.d" -o ${OBJECTDIR}/src/clock/clock.o src/clock/clock.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
+${OBJECTDIR}/src/delay_timer/delay_timer.o: src/delay_timer/delay_timer.c  .generated_files/flags/default/8c62ba20122819064f125fc05e326e7b222228ec .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/delay_timer" 
+	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o.d 
+	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/delay_timer/delay_timer.o.d" -o ${OBJECTDIR}/src/delay_timer/delay_timer.o src/delay_timer/delay_timer.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
 ${OBJECTDIR}/src/hc12/sercom5_usart.o: src/hc12/sercom5_usart.c  .generated_files/flags/default/f166e1d58765c64e7876231be801af854f729f5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/src/hc12" 
 	@${RM} ${OBJECTDIR}/src/hc12/sercom5_usart.o.d 
@@ -121,6 +127,18 @@ ${OBJECTDIR}/src/hc12/hc12.o: src/hc12/hc12.c  .generated_files/flags/default/9a
 	@${RM} ${OBJECTDIR}/src/hc12/hc12.o.d 
 	@${RM} ${OBJECTDIR}/src/hc12/hc12.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/hc12/hc12.o.d" -o ${OBJECTDIR}/src/hc12/hc12.o src/hc12/hc12.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/pm_sensor/sercom1_usart.o: src/pm_sensor/sercom1_usart.c  .generated_files/flags/default/5aecf8735782b74e5f1476e0aae2f2d9cdf04cfc .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d" -o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o src/pm_sensor/sercom1_usart.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/pm_sensor/pm_sensor.o: src/pm_sensor/pm_sensor.c  .generated_files/flags/default/bd120e7c5173d73113edbc05eb2ae604dfd173e0 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d" -o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o src/pm_sensor/pm_sensor.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
 ${OBJECTDIR}/src/usb_serial/sercom3_usart.o: src/usb_serial/sercom3_usart.c  .generated_files/flags/default/a52d879d3f962b32952777c729df6bf64f642dd6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/src/usb_serial" 
@@ -140,30 +158,18 @@ ${OBJECTDIR}/src/main.o: src/main.c  .generated_files/flags/default/df966ba86e83
 	@${RM} ${OBJECTDIR}/src/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/main.o.d" -o ${OBJECTDIR}/src/main.o src/main.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
-${OBJECTDIR}/src/delay_timer/delay_timer.o: src/delay_timer/delay_timer.c  .generated_files/flags/default/8c62ba20122819064f125fc05e326e7b222228ec .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}/src/delay_timer" 
-	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o.d 
-	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/delay_timer/delay_timer.o.d" -o ${OBJECTDIR}/src/delay_timer/delay_timer.o src/delay_timer/delay_timer.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
-	
-${OBJECTDIR}/src/pm_sensor/sercom1_usart.o: src/pm_sensor/sercom1_usart.c  .generated_files/flags/default/5aecf8735782b74e5f1476e0aae2f2d9cdf04cfc .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d" -o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o src/pm_sensor/sercom1_usart.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
-	
-${OBJECTDIR}/src/pm_sensor/pm_sensor.o: src/pm_sensor/pm_sensor.c  .generated_files/flags/default/bd120e7c5173d73113edbc05eb2ae604dfd173e0 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d" -o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o src/pm_sensor/pm_sensor.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
-	
 else
 ${OBJECTDIR}/src/clock/clock.o: src/clock/clock.c  .generated_files/flags/default/702c2524233f42a3d913845fb1ce2e763df062ef .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/src/clock" 
 	@${RM} ${OBJECTDIR}/src/clock/clock.o.d 
 	@${RM} ${OBJECTDIR}/src/clock/clock.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/clock/clock.o.d" -o ${OBJECTDIR}/src/clock/clock.o src/clock/clock.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/delay_timer/delay_timer.o: src/delay_timer/delay_timer.c  .generated_files/flags/default/418d51faf2ce7fe2e04b742931011bf64ddaa06e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/delay_timer" 
+	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o.d 
+	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/delay_timer/delay_timer.o.d" -o ${OBJECTDIR}/src/delay_timer/delay_timer.o src/delay_timer/delay_timer.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
 ${OBJECTDIR}/src/hc12/sercom5_usart.o: src/hc12/sercom5_usart.c  .generated_files/flags/default/82feb7a95631c0972162d8adb8f93cfcec1ccb1b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/src/hc12" 
@@ -176,6 +182,18 @@ ${OBJECTDIR}/src/hc12/hc12.o: src/hc12/hc12.c  .generated_files/flags/default/d8
 	@${RM} ${OBJECTDIR}/src/hc12/hc12.o.d 
 	@${RM} ${OBJECTDIR}/src/hc12/hc12.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/hc12/hc12.o.d" -o ${OBJECTDIR}/src/hc12/hc12.o src/hc12/hc12.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/pm_sensor/sercom1_usart.o: src/pm_sensor/sercom1_usart.c  .generated_files/flags/default/ec1baf033d65415f020efbb0286889d6a7fae5c3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d" -o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o src/pm_sensor/sercom1_usart.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/pm_sensor/pm_sensor.o: src/pm_sensor/pm_sensor.c  .generated_files/flags/default/498571e947418157bba5e76cd756103153ee6c6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d 
+	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d" -o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o src/pm_sensor/pm_sensor.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
 ${OBJECTDIR}/src/usb_serial/sercom3_usart.o: src/usb_serial/sercom3_usart.c  .generated_files/flags/default/132b341436fbcd8da7635df1b5651e41cdcd079 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/src/usb_serial" 
@@ -194,24 +212,6 @@ ${OBJECTDIR}/src/main.o: src/main.c  .generated_files/flags/default/b93ce439023d
 	@${RM} ${OBJECTDIR}/src/main.o.d 
 	@${RM} ${OBJECTDIR}/src/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/main.o.d" -o ${OBJECTDIR}/src/main.o src/main.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
-	
-${OBJECTDIR}/src/delay_timer/delay_timer.o: src/delay_timer/delay_timer.c  .generated_files/flags/default/418d51faf2ce7fe2e04b742931011bf64ddaa06e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}/src/delay_timer" 
-	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o.d 
-	@${RM} ${OBJECTDIR}/src/delay_timer/delay_timer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/delay_timer/delay_timer.o.d" -o ${OBJECTDIR}/src/delay_timer/delay_timer.o src/delay_timer/delay_timer.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
-	
-${OBJECTDIR}/src/pm_sensor/sercom1_usart.o: src/pm_sensor/sercom1_usart.c  .generated_files/flags/default/ec1baf033d65415f020efbb0286889d6a7fae5c3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/sercom1_usart.o.d" -o ${OBJECTDIR}/src/pm_sensor/sercom1_usart.o src/pm_sensor/sercom1_usart.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
-	
-${OBJECTDIR}/src/pm_sensor/pm_sensor.o: src/pm_sensor/pm_sensor.c  .generated_files/flags/default/498571e947418157bba5e76cd756103153ee6c6 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}/src/pm_sensor" 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d 
-	@${RM} ${OBJECTDIR}/src/pm_sensor/pm_sensor.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/pm_sensor/pm_sensor.o.d" -o ${OBJECTDIR}/src/pm_sensor/pm_sensor.o src/pm_sensor/pm_sensor.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
 endif
 

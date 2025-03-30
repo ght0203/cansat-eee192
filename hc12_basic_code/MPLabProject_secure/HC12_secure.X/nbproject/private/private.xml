@@ -3,11 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/main.c</file>
             <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/config/default/peripheral/tcc/plib_tcc0.c</file>
+            <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/main.c</file>
+            <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/config/default/peripheral/tcc/plib_tcc_common.h</file>
             <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/config/default/interrupts.h</file>
             <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/config/default/peripheral/port/plib_port.c</file>
-            <file>file:/D:/Acads/24-25_sem_2/EEE192/cansat-eee192/hc12_basic_code/MPLabProject_secure/src/config/default/peripheral/tcc/plib_tcc_common.h</file>
         </group>
     </open-files>
 </project-private>
