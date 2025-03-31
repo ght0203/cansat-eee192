@@ -43,6 +43,7 @@ void DMAC_Initialize( void );
 bool DMAC_ChannelTransfer (DMAC_CHANNEL channel, const void *srcAddr, const void *destAddr, size_t blockSize);
 bool DMAC_ChannelIsBusy ( DMAC_CHANNEL channel );
 void DMAC_ChannelCallbackRegister( DMAC_CHANNEL channel, const DMAC_CHANNEL_CALLBACK eventHandler, const uintptr_t contextHandle );
+uint16_t DMAC_ChannelGetTransferredCount( DMAC_CHANNEL channel );
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

@@ -33,13 +33,11 @@ void USBSerial_Write(const char* message) {
         return;  // Don't send anything if the message is empty
     }
 
-    // Wait for the transmission to complete (no other transfer in progress)
-    while (DMAC_ChannelIsBusy(DMAC_CHANNEL_0)) asm("nop");
-
     size_t messageLength = strlen(message);
     
     // Start the DMA transfer for the message
     DMAC_ChannelTransfer(DMAC_CHANNEL_0, message, (const void *)&SERCOM3_REGS->USART_INT.SERCOM_DATA, messageLength);
+    while(DMAC_ChannelGetTransferredCount(DMAC_CHANNEL_0) < messageLength);
 }
 
 

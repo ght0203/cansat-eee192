@@ -13,8 +13,11 @@ extern "C" {
 #endif
 
 void SPI_BME280_Initialize( void );
-void SPI_BME280_NormalMode(void);
-float SPI_BME280_GetTemp(void);
+void SPI_BME280_SetMode(void);
+float SPI_BME280_GetTemperature(void);
+float SPI_BME280_GetHumidity(void);
+float SPI_BME280_GetPressure(void);
+float SPI_BME280_GetAltitude(float reference_altitude, float reference_pressure);
 
 #ifdef	__cplusplus
 }

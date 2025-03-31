@@ -20,7 +20,7 @@ void SERCOM2_SPI_Initialize(void)
     sercom2SPIObj.rxSize = 0U;
 
     /* Selection of the Character Size and Receiver Enable */
-    SERCOM2_REGS->SPIM.SERCOM_CTRLB = SERCOM_SPIM_CTRLB_CHSIZE_8_BIT | SERCOM_SPIM_CTRLB_RXEN_Msk;
+    SERCOM2_REGS->SPIM.SERCOM_CTRLB = SERCOM_SPIM_CTRLB_CHSIZE_8_BIT | SERCOM_SPIM_CTRLB_RXEN_Msk | SERCOM_SPIM_CTRLB_MSSEN_ENABLE;
     //SERCOM2_REGS->SPIM.SERCOM_CTRLC =  SERCOM_SPIM_CTRLC_FIFOEN_Msk; // delete if not using
 
     /* Wait for synchronization */

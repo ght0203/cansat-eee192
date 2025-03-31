@@ -1,0 +1,2142 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+                              C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o (__pic32c_data_initialization)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+                              build/default/production/src/usb_serial/usb_serial.o (strlen)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o)
+                              build/default/production/src/bme_280/bme280.o (pow)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dadd.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_dadd)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dsub.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_dsub)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dmul_aux.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_dmul)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fdiv.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_fdiv)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ddiv.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_ddiv)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fcmple.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_fcmple)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpeq.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o) (__aeabi_dcmpeq)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmplt.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o) (__aeabi_dcmplt)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2iz.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o) (__aeabi_d2iz)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2uiz.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2iz.o) (.L__aeabi_d2uiz_fast_entry)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2f.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_i2f)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2d.o)
+                              build/default/production/src/delay_timer/delay_timer.o (__aeabi_i2d)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2f.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_ui2f)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2d.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_ui2d)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_f2d.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_f2d)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2f.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_d2f)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o) (log)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(exp.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o) (exp)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_Log.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o) (__SEGGER_RTL_float64_Log)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalP.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o) (__SEGGER_RTL_float64_PolyEvalP)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalQ.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o) (__SEGGER_RTL_float64_PolyEvalQ)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(ldexp.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o) (ldexp)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(frexp.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o) (frexp)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+                              C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o (__libc_init_array)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o) (__errno_val)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o) (__progname_full)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+                              (_snprintf_eEfFgGn)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o) (__fmt_f_needed)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o) (__pop_float_needed)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o) (__pop_ptr_needed)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (__pad)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o) (atoi)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (tolower)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o) (__environ)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o) (__vsnprintf)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o) (__pop_int)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o) (__vfprintf)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(fma.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (fma)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(floor.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (floor)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmple.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (__aeabi_dcmple)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpgt.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (__aeabi_dcmpgt)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_ldivmod)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+                              build/default/production/src/bme_280/bme280.o (__aeabi_lmul)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o) (__divdi3)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o) (__clzsi2)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o) (memcpy)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (memset)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o) (strcpy)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+                              d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o) (__stpcpy)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+                              (__dinit_clear_needed)
+d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+                              (__dinit_copy_needed)
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                         0          0x15c         348   
+.text                        0x15c           0x20          32  App's exec code 
+.ARM.exidx                   0x17c            0x8           8   
+.text                        0x184          0xb78        2936  App's exec code 
+.text                        0xcfc          0xaf4        2804  App's exec code 
+.text                       0x17f0          0xa40        2624  App's exec code 
+.text.pow                   0x2230          0x4b0        1200   
+.text.__fmt_fp              0x26e0          0x4ac        1196   
+.text                       0x2b8c          0x378         888  App's exec code 
+.text.__printf_core         0x2f04          0x330         816   
+.text                       0x3234          0x30a         778  App's exec code 
+.text                       0x353e          0x29e         670  App's exec code 
+.text                       0x37dc          0x25a         602  App's exec code 
+.text.Dummy_Handler         0x3a36            0x2           2   
+.text.exp                   0x3a38          0x244         580   
+.text.log                   0x3c7c          0x200         512   
+.text.__aeabi_dadd          0x3e7c          0x1c8         456   
+.text.__aeabi_dmul_aux      0x4044          0x186         390   
+.text                       0x41ca           0xd8         216  App's exec code 
+.text                       0x42a2           0xd6         214  App's exec code 
+.text.__SEGGER_RTL_floa     0x4378           0xd4         212   
+.text.__aeabi_ddiv          0x444c           0xc0         192   
+.text.floor                 0x450c           0xbc         188   
+.text.__pop_int             0x45c8           0xb6         182   
+.text.__dummy_init_tls      0x467e            0x2           2   
+.dinit                      0x4680           0xa0         160   
+.text.__aeabi_fdiv          0x4720           0x94         148   
+.text.__SEGGER_RTL_floa     0x47b4           0x80         128   
+.text.Reset_Handler         0x4834           0x7e         126   
+.text.__pad                 0x48b2           0x7a         122   
+.text.__pop_ptr             0x492c           0x68         104   
+.text.__aeabi_d2f           0x4994           0x60          96   
+.text.__libc_start_init     0x49f4           0x5c          92   
+.rodata                     0x4a50           0x58          88  Read-only const 
+.text.ldexp                 0x4aa8           0x50          80   
+.text.__vsnprintf           0x4af8           0x4c          76   
+.text                       0x4b44           0x48          72  App's exec code 
+.text.__aeabi_f2d           0x4b8c           0x44          68   
+.text.__aeabi_dcmple        0x4bd0           0x44          68   
+.text                       0x4c14           0x44          68  App's exec code 
+.text                       0x4c58           0x40          64  App's exec code 
+.text.__aeabi_dcmplt        0x4c98           0x3e          62   
+.text.atoi                  0x4cd6           0x3e          62   
+.text.__aeabi_dcmpgt        0x4d14           0x3e          62   
+.text.__dummy               0x4d52            0x2           2   
+.text.frexp                 0x4d54           0x3c          60   
+.text                       0x4d90           0x3c          60  App's exec code 
+.text.__pic32c_data_ini     0x4dcc           0x34          52   
+.text.__aeabi_d2iz          0x4e00           0x34          52   
+.text.__fmt_state           0x4e34           0x34          52   
+.text                       0x4e68           0x34          52  App's exec code 
+.text.__aeabi_fcmple        0x4e9c           0x32          50   
+.text.__aeabi_dcmpeq        0x4ece           0x2e          46   
+.text.__aeabi_d2uiz         0x4efc           0x2e          46   
+.text.__pop_float           0x4f2a           0x2a          42   
+.text.__dummy_decompres     0x4f54            0x4           4   
+.rodata.__SEGGER_RTL_fl     0x4f58           0x28          40   
+.text.__string_out          0x4f80           0x28          40   
+.text.__aeabi_i2f           0x4fa8           0x26          38   
+.text.__aeabi_ui2f          0x4fce           0x1e          30   
+.text.__dinit_copy          0x4fec           0x1e          30   
+.text.__aeabi_i2d           0x500a           0x1c          28   
+.text.__aeabi_ui2d          0x5026           0x1a          26   
+.text.strlen                0x5040           0x18          24   
+.text.__vfprintf            0x5058           0x18          24   
+.text.__wrap_snprintf       0x5070           0x16          22   
+.rodata                     0x5086           0x16          22  Read-only const 
+.rodata                     0x509c           0x14          20  Read-only const 
+.text.memcpy                0x50b0           0x14          20   
+.text.memset                0x50c4           0x14          20   
+.text.stpcpy                0x50d8           0x14          20   
+.text.__aeabi_dsub          0x50ec           0x12          18   
+.text.__dinit_clear         0x50fe           0x12          18   
+.text.__sio_snprintf_eE     0x5110           0x10          16   
+.rodata.str1.1              0x5120           0x10          16   
+.text.fma                   0x5130           0x10          16   
+.text.tolower               0x5140            0xe          14   
+.rodata                     0x5150            0xc          12  Read-only const 
+.text.strcpy                0x515c            0xc          12   
+.rodata.str1.1              0x5168            0x8           8   
+.text.__tolower_l           0x5170            0x8           8   
+.text.__dummy_fmt3          0x5178            0x4           4   
+.text.__dummy_fmt4          0x517c            0x4           4   
+.text.__dummy_fmts          0x5180            0x4           4   
+.text                       0x5184            0x4           4  App's exec code 
+      Total ROM used  :      0x5186       20870  8.0% of 0x40000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :      0x5186       20870  8.0% of 0x40000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.bss                    0x20000000           0xc0         192  Uninitialized data 
+.bss                    0x200000c0           0x50          80  Uninitialized data 
+.bss                    0x20000110           0x45          69  Uninitialized data 
+.bss                    0x20000158           0x2d          45  Uninitialized data 
+.bss                    0x20000188           0x28          40  Uninitialized data 
+.bss                    0x200001b0           0x1c          28  Uninitialized data 
+.bss                    0x200001cc            0xc          12  Uninitialized data 
+.bss                    0x200001d8            0x4           4  Uninitialized data 
+.bss                    0x200001dc            0x4           4  Uninitialized data 
+.bss                    0x200001e0            0x4           4  Uninitialized data 
+.data                   0x200001e4            0x4           4  Initialized data 
+.eh_frame               0x200001e8            0x4           4   
+         Total RAM used  :       0x1e6         486  1.5% of 0x8000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0x1e6         486  1.5% of 0x8000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x200001f0           0x10          16  Reserved for heap 
+stack                   0x20000218         0x7dd8       32216  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Microchip PIC32 Memory-Usage Report By Module
+
+        text        data         bss         dec         hex    basename                            filename
+--------------------------------------------------------------------------------
+        2804           0         192        2996         bb4    dmac_transmit.o                 build/default/production/src/dmac/dmac_transmit.o
+        2948           0          40        2988         bac    bme280.o                        build/default/production/src/bme_280/bme280.o
+        2624           0          45        2669         a6d    sercom2_spi.o                   build/default/production/src/bme_280/sercom2_spi.o
+        1212           0           0        1212         4bc    __fmt_fp.o                      libc-musl.a
+        1200           0           0        1200         4b0    pow.o                           libm-fast-emfloat.a
+        1072           0           0        1072         430    __printf_core.o                 libc-musl.a
+         888           0          69         957         3bd    usb_serial.o                    build/default/production/src/usb_serial/usb_serial.o
+         778           0          12         790         316    delay_timer.o                   build/default/production/src/delay_timer/delay_timer.o
+         670           0           0         670         29e    clock.o                         build/default/production/src/clock/clock.o
+         610           0           0         610         262    _divdi3.o                       libgcc.a
+         580           0           0         580         244    exp.o                           libm-fast-emfloat.a
+         512           0           0         512         200    log.o                           libm-fast-emfloat.a
+         476           0           0         476         1dc    cc4tCp3T.o                      C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+         456           0           0         456         1c8    __aeabi_dadd.o                  libm-fast-emfloat.a
+         390           0           0         390         186    __aeabi_dmul_aux.o              libm-fast-emfloat.a
+         304           0           0         304         130    main.o                          build/default/production/src/main.o
+         214           0           0         214          d6    sercom3_usart.o                 build/default/production/src/usb_serial/sercom3_usart.o
+         212           0           0         212          d4    __SEGGER_RTL_float64_PolyEvalP.olibm-fast-emfloat.a
+         192           0           0         192          c0    __aeabi_ddiv.o                  libm-fast-emfloat.a
+         188           0           0         188          bc    floor.o                         libm-fast-emfloat.a
+         182           0           0         182          b6    __pop_int.o                     libc-musl.a
+         160           0           0         160          a0    data_init                       data_init
+         148           0           0         148          94    __aeabi_fdiv.o                  libm-fast-emfloat.a
+         128           0           0         128          80    __SEGGER_RTL_float64_PolyEvalQ.olibm-fast-emfloat.a
+          72           4          28         104          68    crtbegin.o                      d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+         104           0           0         104          68    __pop_ptr.o                     libc-musl.a
+          96           0           0          96          60    __aeabi_d2f.o                   libm-fast-emfloat.a
+          94           0           0          94          5e    __libc_start_main.o             libc-musl.a
+          78           0           4          82          52    data_init.o                     libpic32c.a
+          80           0           0          80          50    ldexp.o                         libm-fast-emfloat.a
+           0           0          80          80          50    libc.o                          libc-musl.a
+          76           0           0          76          4c    __int_vsnprintf.o               libc-musl.a
+          72           0           0          72          48    _aeabi_ldivmod.o                libgcc.a
+          68           0           0          68          44    __aeabi_dcmple.o                libm-fast-emfloat.a
+          68           0           0          68          44    __aeabi_f2d.o                   libm-fast-emfloat.a
+          68           0           0          68          44    _muldi3.o                       libgcc.a
+          62           0           0          62          3e    __aeabi_dcmpgt.o                libm-fast-emfloat.a
+          62           0           0          62          3e    __aeabi_dcmplt.o                libm-fast-emfloat.a
+          62           0           0          62          3e    atoi.o                          libc-musl.a
+          60           0           0          60          3c    frexp.o                         libm-fast-emfloat.a
+          60           0           0          60          3c    _clzsi2.o                       libgcc.a
+          52           0           0          52          34    __aeabi_d2iz.o                  libm-fast-emfloat.a
+          52           0           0          52          34    bpabi.o                         libgcc.a
+          50           0           0          50          32    __aeabi_fcmple.o                libm-fast-emfloat.a
+          46           0           0          46          2e    __aeabi_d2uiz.o                 libm-fast-emfloat.a
+          46           0           0          46          2e    __aeabi_dcmpeq.o                libm-fast-emfloat.a
+          42           0           0          42          2a    __pop_float.o                   libc-musl.a
+          40           0           0          40          28    __SEGGER_RTL_float64_Log.o      libm-fast-emfloat.a
+          38           0           0          38          26    __aeabi_i2f.o                   libm-fast-emfloat.a
+          38           0           0          38          26    __sio_snprintf_eEfFgGn.o        libc-musl.a
+          30           0           0          30          1e    __aeabi_ui2f.o                  libm-fast-emfloat.a
+          30           0           0          30          1e    pic32_data_init_copy.o          libpic32c.a
+          28           0           0          28          1c    __aeabi_i2d.o                   libm-fast-emfloat.a
+          26           0           0          26          1a    __aeabi_ui2d.o                  libm-fast-emfloat.a
+          24           0           0          24          18    strlen.o                        libc-size-musl.a
+          24           0           0          24          18    __int_vfprintf.o                libc-musl.a
+          22           0           0          22          16    tolower.o                       libc-musl.a
+          20           0           0          20          14    memcpy.o                        libc-size-musl.a
+          20           0           0          20          14    memset.o                        libc-size-musl.a
+          20           0           0          20          14    stpcpy.o                        libc-size-musl.a
+          18           0           0          18          12    pic32_data_init_clear.o         libpic32c.a
+          18           0           0          18          12    __aeabi_dsub.o                  libm-fast-emfloat.a
+          16           0           0          16          10    crtn.o                          d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+          16           0           0          16          10    fma.o                           libm-fast-emfloat.a
+          12           0           0          12           c    strcpy.o                        libc-size-musl.a
+           8           0           0           8           8    crti.o                          d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+           0           0           4           4           4    __errno_location.o              libc-musl.a
+           0           4           0           4           4    crtend.o                        d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+           4           0           0           4           4    _dvmd_tls.o                     libgcc.a
+           0           0           4           4           4    __environ.o                     libc-musl.a
+--------------------------------------------------------------------------------
+       20870           8         478       21356        536c    dist/default/production/bme_280_spi.X.production.elf
+
+
+Discarded input sections
+
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .xc_stack_usage
+                0x0000000000000000       0x26 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .xc_stack_usage
+                0x0000000000000000       0x3c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .xc_stack_usage
+                0x0000000000000000       0x68 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .xc_stack_usage
+                0x0000000000000000       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o)
+ .xc_stack_usage
+                0x0000000000000000       0x11 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dadd.o)
+ .xc_stack_usage
+                0x0000000000000000       0x41 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dadd.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dsub.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dsub.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dmul_aux.o)
+ .xc_stack_usage
+                0x0000000000000000       0x38 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dmul_aux.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fdiv.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fdiv.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ddiv.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ddiv.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fcmple.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fcmple.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpeq.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpeq.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmplt.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmplt.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2iz.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2iz.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2uiz.o)
+ .xc_stack_usage
+                0x0000000000000000       0x43 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2uiz.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2f.o)
+ .xc_stack_usage
+                0x0000000000000000       0x19 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2f.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2d.o)
+ .xc_stack_usage
+                0x0000000000000000       0x19 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2d.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2f.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2f.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2d.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2d.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_f2d.o)
+ .xc_stack_usage
+                0x0000000000000000       0x19 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_f2d.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2f.o)
+ .xc_stack_usage
+                0x0000000000000000       0x19 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2f.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o)
+ .xc_stack_usage
+                0x0000000000000000       0x11 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(exp.o)
+ .xc_stack_usage
+                0x0000000000000000       0x11 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(exp.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_Log.o)
+ .xc_stack_usage
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_Log.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalP.o)
+ .xc_stack_usage
+                0x0000000000000000       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalP.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalQ.o)
+ .xc_stack_usage
+                0x0000000000000000       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalQ.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(ldexp.o)
+ .xc_stack_usage
+                0x0000000000000000       0x13 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(ldexp.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(frexp.o)
+ .xc_stack_usage
+                0x0000000000000000       0x13 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(frexp.o)
+ .xc_stack_usage
+                0x0000000000000000       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .xc_stack_usage
+                0x0000000000000000       0x41 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .xc_stack_usage
+                0x0000000000000000       0x16 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .xc_stack_usage
+                0x0000000000000000       0x19 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .xc_stack_usage
+                0x0000000000000000       0x17 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .xc_stack_usage
+                0x0000000000000000       0xaf d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .xc_stack_usage
+                0x0000000000000000       0x12 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .xc_stack_usage
+                0x0000000000000000       0x2e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .xc_stack_usage
+                0x0000000000000000       0x19 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .xc_stack_usage
+                0x0000000000000000       0x17 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .xc_stack_usage
+                0x0000000000000000       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(fma.o)
+ .xc_stack_usage
+                0x0000000000000000       0x11 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(fma.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(floor.o)
+ .xc_stack_usage
+                0x0000000000000000       0x13 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(floor.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmple.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmple.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpgt.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpgt.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1d d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .xc_stack_usage
+                0x0000000000000000       0x16 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .xc_stack_usage
+                0x0000000000000000       0x22 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage
+                0x0000000000000000       0x36 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage
+                0x0000000000000000       0x16 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .xc_stack_usage
+                0x0000000000000000       0x16 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .xc_stack_usage
+                0x0000000000000000       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .xc_stack_usage
+                0x0000000000000000       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .xc_stack_usage
+                0x0000000000000000       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .xc_stack_usage
+                0x0000000000000000       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+ .xc_stack_usage
+                0x0000000000000000       0x1b d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000040000 xrl
+rom_nsc          0x0000000000040000 0x0000000000000000 xrl
+ram              0x0000000020000000 0x0000000000008000 xw !r
+config_00804000  0x0000000000804000 0x0000000000000004
+config_00804004  0x0000000000804004 0x0000000000000004
+config_00804008  0x0000000000804008 0x0000000000000004
+config_0080400C  0x000000000080400c 0x0000000000000004
+config_00804010  0x0000000000804010 0x0000000000000004
+config_00804014  0x0000000000804014 0x0000000000000004
+config_00804018  0x0000000000804018 0x0000000000000004
+config_0080401C  0x000000000080401c 0x0000000000000004
+config_00804020  0x0000000000804020 0x0000000000000004
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+LOAD build/default/production/src/bme_280/bme280.o
+LOAD build/default/production/src/bme_280/sercom2_spi.o
+LOAD build/default/production/src/clock/clock.o
+LOAD build/default/production/src/delay_timer/delay_timer.o
+LOAD build/default/production/src/dmac/dmac_transmit.o
+LOAD build/default/production/src/usb_serial/sercom3_usart.o
+LOAD build/default/production/src/usb_serial/usb_serial.o
+LOAD build/default/production/src/main.o
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+LOAD C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+START GROUP
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\liblmalloc-musl.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-musl.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-musl.a
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a
+END GROUP
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+LOAD d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+                0x0000000000040000                __rom_end = (ORIGIN (rom) + LENGTH (rom))
+                0x0000000000040000                __rom_nsc_end = (ORIGIN (rom_nsc) + LENGTH (rom_nsc))
+                0x0000000020008000                __ram_end = (ORIGIN (ram) + LENGTH (ram))
+
+.config_00804000
+ *(.config_00804000)
+
+.config_00804004
+ *(.config_00804004)
+
+.config_00804008
+ *(.config_00804008)
+
+.config_0080400C
+ *(.config_0080400C)
+
+.config_00804010
+ *(.config_00804010)
+
+.config_00804014
+ *(.config_00804014)
+
+.config_00804018
+ *(.config_00804018)
+
+.config_0080401C
+ *(.config_0080401C)
+
+.config_00804020
+ *(.config_00804020)
+
+.vectors        0x0000000000000000      0x15c
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                _sfixed = .
+ *(.vectors .vectors.* .vectors_default .vectors_default.*)
+ .vectors.default
+                0x0000000000000000      0x15c C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+                0x0000000000000000                exception_table
+ *(.isr_vector)
+ *(.reset*)
+ *(.after_vectors)
+
+.text           0x000000000000015c       0x20
+                0x000000000000015c                . = ALIGN (0x4)
+ *(.glue_7t)
+ .glue_7t       0x000000000000015c        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000000000015c        0x0 linker stubs
+ *veneer.o(.text.*)
+ *nonsecure_entry.o(.text.*)
+ *(.gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x000000000000015c        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+                0x000000000000015c                . = ALIGN (0x4)
+ *(.init)
+ .init          0x000000000000015c        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+                0x000000000000015c                _init
+ .init          0x0000000000000160        0x8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+                0x0000000000000168                . = ALIGN (0x4)
+                0x0000000000000168                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000000000168                __preinit_array_end = .
+                0x0000000000000168                . = ALIGN (0x4)
+                0x0000000000000168                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000000000168        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+                0x000000000000016c                __init_array_end = .
+                0x000000000000016c                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x000000000000016c                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000000000000016c        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+                0x000000000000016c                _fini
+ .fini          0x0000000000000170        0x8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+                0x0000000000000178                . = ALIGN (0x4)
+                0x0000000000000178                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x0000000000000178        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x000000000000017c                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x000000000000017c                . = ALIGN (0x4)
+                0x000000000000017c                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x000000000000017c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000000017c        0x8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+                [!provide]                        PROVIDE (__exidx_end = .)
+                0x0000000000000184                . = ALIGN (0x4)
+                0x0000000000000184                _etext = .
+                0x0000000000000184                . = ALIGN (0x4)
+
+.gnu.sgstubs    0x0000000000040000        0x0
+                0x0000000000040000                _ssgstubs = .
+
+.bss            0x0000000020000000        0x0
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __bss_start__ = .
+                0x0000000020000000                _sbss = .
+                0x0000000020000000                _szero = .
+ *(COMMON)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __bss_end__ = .
+                0x0000000020000000                _ebss = .
+                0x0000000020000000                _ezero = .
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _end = .
+                0x0000000020007fff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
+OUTPUT(dist/default/production/bme_280_spi.X.production.elf elf32-littlearm)
+LOAD data_init
+LOAD stack
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x22 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x30 build/default/production/src/bme_280/bme280.o
+ .ARM.attributes
+                0x0000000000000082       0x30 build/default/production/src/bme_280/sercom2_spi.o
+ .ARM.attributes
+                0x00000000000000b2       0x30 build/default/production/src/clock/clock.o
+ .ARM.attributes
+                0x00000000000000e2       0x30 build/default/production/src/delay_timer/delay_timer.o
+ .ARM.attributes
+                0x0000000000000112       0x30 build/default/production/src/dmac/dmac_transmit.o
+ .ARM.attributes
+                0x0000000000000142       0x30 build/default/production/src/usb_serial/sercom3_usart.o
+ .ARM.attributes
+                0x0000000000000172       0x30 build/default/production/src/usb_serial/usb_serial.o
+ .ARM.attributes
+                0x00000000000001a2       0x30 build/default/production/src/main.o
+ .ARM.attributes
+                0x00000000000001d2       0x30 C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+ .ARM.attributes
+                0x0000000000000202       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .ARM.attributes
+                0x0000000000000232       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .ARM.attributes
+                0x0000000000000264       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o)
+ .ARM.attributes
+                0x0000000000000294       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dadd.o)
+ .ARM.attributes
+                0x00000000000002b4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dsub.o)
+ .ARM.attributes
+                0x00000000000002d4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dmul_aux.o)
+ .ARM.attributes
+                0x00000000000002f4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fdiv.o)
+ .ARM.attributes
+                0x0000000000000314       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ddiv.o)
+ .ARM.attributes
+                0x0000000000000334       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fcmple.o)
+ .ARM.attributes
+                0x0000000000000354       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpeq.o)
+ .ARM.attributes
+                0x0000000000000374       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmplt.o)
+ .ARM.attributes
+                0x0000000000000394       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2iz.o)
+ .ARM.attributes
+                0x00000000000003b4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2uiz.o)
+ .ARM.attributes
+                0x00000000000003d4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2f.o)
+ .ARM.attributes
+                0x00000000000003f4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2d.o)
+ .ARM.attributes
+                0x0000000000000414       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2f.o)
+ .ARM.attributes
+                0x0000000000000434       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2d.o)
+ .ARM.attributes
+                0x0000000000000454       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_f2d.o)
+ .ARM.attributes
+                0x0000000000000474       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2f.o)
+ .ARM.attributes
+                0x0000000000000494       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o)
+ .ARM.attributes
+                0x00000000000004c4       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(exp.o)
+ .ARM.attributes
+                0x00000000000004f4       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_Log.o)
+ .ARM.attributes
+                0x0000000000000524       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalP.o)
+ .ARM.attributes
+                0x0000000000000554       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalQ.o)
+ .ARM.attributes
+                0x0000000000000584       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(ldexp.o)
+ .ARM.attributes
+                0x00000000000005b4       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(frexp.o)
+ .ARM.attributes
+                0x00000000000005e4       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .ARM.attributes
+                0x0000000000000616       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .ARM.attributes
+                0x0000000000000648       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .ARM.attributes
+                0x000000000000067a       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .ARM.attributes
+                0x00000000000006ac       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .ARM.attributes
+                0x00000000000006de       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .ARM.attributes
+                0x0000000000000710       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .ARM.attributes
+                0x0000000000000742       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .ARM.attributes
+                0x0000000000000774       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .ARM.attributes
+                0x00000000000007a6       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .ARM.attributes
+                0x00000000000007d8       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .ARM.attributes
+                0x000000000000080a       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .ARM.attributes
+                0x000000000000083c       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .ARM.attributes
+                0x000000000000086e       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .ARM.attributes
+                0x00000000000008a0       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(fma.o)
+ .ARM.attributes
+                0x00000000000008d0       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(floor.o)
+ .ARM.attributes
+                0x0000000000000900       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmple.o)
+ .ARM.attributes
+                0x0000000000000920       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpgt.o)
+ .ARM.attributes
+                0x0000000000000940       0x22 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000962       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x0000000000000992       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000000000009c2       0x22 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000009e4       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000000000000a14       0x22 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000000000000a36       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .ARM.attributes
+                0x0000000000000a68       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .ARM.attributes
+                0x0000000000000a9a       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .ARM.attributes
+                0x0000000000000acc       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .ARM.attributes
+                0x0000000000000afe       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .ARM.attributes
+                0x0000000000000b2e       0x22 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+ .ARM.attributes
+                0x0000000000000b50       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .ARM.attributes
+                0x0000000000000b80       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.comment        0x0000000000000000       0x2b
+ .comment       0x0000000000000000       0x2b d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c build/default/production/src/bme_280/bme280.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/bme_280/sercom2_spi.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/clock/clock.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/delay_timer/delay_timer.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/dmac/dmac_transmit.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/usb_serial/sercom3_usart.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/usb_serial/usb_serial.o
+ .comment       0x000000000000002b       0x2c build/default/production/src/main.o
+ .comment       0x000000000000002b       0x2c C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(exp.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_Log.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalP.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalQ.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(ldexp.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(frexp.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(fma.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(floor.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .comment       0x000000000000002b       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_info     0x0000000000000000     0x8eba
+ .debug_info    0x0000000000000000      0x7bc build/default/production/src/bme_280/bme280.o
+ .debug_info    0x00000000000007bc     0x151e build/default/production/src/bme_280/sercom2_spi.o
+ .debug_info    0x0000000000001cda      0x922 build/default/production/src/clock/clock.o
+ .debug_info    0x00000000000025fc      0x8f0 build/default/production/src/delay_timer/delay_timer.o
+ .debug_info    0x0000000000002eec      0xe57 build/default/production/src/dmac/dmac_transmit.o
+ .debug_info    0x0000000000003d43      0xb88 build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_info    0x00000000000048cb      0xf9a build/default/production/src/usb_serial/usb_serial.o
+ .debug_info    0x0000000000005865      0x2d2 build/default/production/src/main.o
+ .debug_info    0x0000000000005b37       0x68 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_info    0x0000000000005b9f       0xa4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_info    0x0000000000005c43      0x2fb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_info    0x0000000000005f3e       0x5b d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .debug_info    0x0000000000005f99      0x276 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .debug_info    0x000000000000620f      0x1cc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_info    0x00000000000063db      0x666 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_info    0x0000000000006a41      0x162 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_info    0x0000000000006ba3      0x18d d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_info    0x0000000000006d30      0xa72 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_info    0x00000000000077a2       0xf4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_info    0x0000000000007896      0x131 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_info    0x00000000000079c7       0x97 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .debug_info    0x0000000000007a5e      0x21a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_info    0x0000000000007c78      0x183 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_info    0x0000000000007dfb      0x1ff d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_info    0x0000000000007ffa       0x26 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x0000000000008020      0x243 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_info    0x0000000000008263       0xd5 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_info    0x0000000000008338       0x26 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000000835e      0x7a6 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_info    0x0000000000008b04       0x26 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000008b2a       0xed d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_info    0x0000000000008c17       0xbb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_info    0x0000000000008cd2       0xbd d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_info    0x0000000000008d8f       0xac d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_info    0x0000000000008e3b       0x3f d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_info    0x0000000000008e7a       0x40 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_abbrev   0x0000000000000000     0x23cb
+ .debug_abbrev  0x0000000000000000      0x159 build/default/production/src/bme_280/bme280.o
+ .debug_abbrev  0x0000000000000159      0x2a9 build/default/production/src/bme_280/sercom2_spi.o
+ .debug_abbrev  0x0000000000000402      0x12e build/default/production/src/clock/clock.o
+ .debug_abbrev  0x0000000000000530      0x1f4 build/default/production/src/delay_timer/delay_timer.o
+ .debug_abbrev  0x0000000000000724      0x25e build/default/production/src/dmac/dmac_transmit.o
+ .debug_abbrev  0x0000000000000982       0xd1 build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_abbrev  0x0000000000000a53      0x1d2 build/default/production/src/usb_serial/usb_serial.o
+ .debug_abbrev  0x0000000000000c25       0xd4 build/default/production/src/main.o
+ .debug_abbrev  0x0000000000000cf9       0x44 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_abbrev  0x0000000000000d3d       0x91 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_abbrev  0x0000000000000dce      0x133 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_abbrev  0x0000000000000f01       0x39 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .debug_abbrev  0x0000000000000f3a       0xd4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .debug_abbrev  0x000000000000100e      0x12b d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_abbrev  0x0000000000001139      0x1e3 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_abbrev  0x000000000000131c       0xdc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_abbrev  0x00000000000013f8       0xdc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_abbrev  0x00000000000014d4      0x317 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_abbrev  0x00000000000017eb       0xc6 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_abbrev  0x00000000000018b1       0xf4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_abbrev  0x00000000000019a5       0x62 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .debug_abbrev  0x0000000000001a07      0x154 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_abbrev  0x0000000000001b5b       0xdc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_abbrev  0x0000000000001c37      0x132 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_abbrev  0x0000000000001d69       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000001d7d      0x10b d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_abbrev  0x0000000000001e88       0xaa d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_abbrev  0x0000000000001f32       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000001f46      0x1a8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_abbrev  0x00000000000020ee       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000002102       0xbb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_abbrev  0x00000000000021bd       0xa2 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_abbrev  0x000000000000225f       0xa2 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_abbrev  0x0000000000002301       0x6e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_abbrev  0x000000000000236f       0x2e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_abbrev  0x000000000000239d       0x2e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_loc      0x0000000000000000     0x3c0d
+ .debug_loc     0x0000000000000000      0x280 build/default/production/src/bme_280/bme280.o
+ .debug_loc     0x0000000000000280      0x300 build/default/production/src/bme_280/sercom2_spi.o
+ .debug_loc     0x0000000000000580      0x114 build/default/production/src/clock/clock.o
+ .debug_loc     0x0000000000000694      0x138 build/default/production/src/delay_timer/delay_timer.o
+ .debug_loc     0x00000000000007cc      0x2a0 build/default/production/src/dmac/dmac_transmit.o
+ .debug_loc     0x0000000000000a6c       0x38 build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_loc     0x0000000000000aa4      0x170 build/default/production/src/usb_serial/usb_serial.o
+ .debug_loc     0x0000000000000c14       0x3a build/default/production/src/main.o
+ .debug_loc     0x0000000000000c4e       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_loc     0x0000000000000c62       0x81 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_loc     0x0000000000000ce3       0x5e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_loc     0x0000000000000d41       0xab d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_loc     0x0000000000000dec      0xd45 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_loc     0x0000000000001b31       0x6f d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_loc     0x0000000000001ba0      0x1fe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_loc     0x0000000000001d9e      0x6bd d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_loc     0x000000000000245b       0xdc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_loc     0x0000000000002537       0x8f d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_loc     0x00000000000025c6      0x102 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_loc     0x00000000000026c8      0x34c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_loc     0x0000000000002a14       0xb0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_loc     0x0000000000002ac4      0x176 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_loc     0x0000000000002c3a       0x9c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_loc     0x0000000000002cd6      0xc25 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_loc     0x00000000000038fb      0x12d d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_loc     0x0000000000003a28       0xcd d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_loc     0x0000000000003af5       0x74 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_loc     0x0000000000003b69       0x90 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_loc     0x0000000000003bf9       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_aranges  0x0000000000000000      0x4c0
+ .debug_aranges
+                0x0000000000000000       0x20 build/default/production/src/bme_280/bme280.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/default/production/src/bme_280/sercom2_spi.o
+ .debug_aranges
+                0x0000000000000040       0x20 build/default/production/src/clock/clock.o
+ .debug_aranges
+                0x0000000000000060       0x20 build/default/production/src/delay_timer/delay_timer.o
+ .debug_aranges
+                0x0000000000000080       0x20 build/default/production/src/dmac/dmac_transmit.o
+ .debug_aranges
+                0x00000000000000a0       0x20 build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_aranges
+                0x00000000000000c0       0x20 build/default/production/src/usb_serial/usb_serial.o
+ .debug_aranges
+                0x00000000000000e0       0x20 build/default/production/src/main.o
+ .debug_aranges
+                0x0000000000000100       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_aranges
+                0x0000000000000130       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_aranges
+                0x0000000000000150       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_aranges
+                0x0000000000000178       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .debug_aranges
+                0x0000000000000190       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .debug_aranges
+                0x00000000000001a8       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_aranges
+                0x00000000000001d0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_aranges
+                0x00000000000001f0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_aranges
+                0x0000000000000210       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_aranges
+                0x0000000000000230       0x50 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_aranges
+                0x0000000000000280       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_aranges
+                0x00000000000002a0       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_aranges
+                0x00000000000002c8       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_aranges
+                0x0000000000000300       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_aranges
+                0x0000000000000320       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_aranges
+                0x0000000000000340       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .debug_aranges
+                0x0000000000000360       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x0000000000000380       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000000000003c0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x00000000000003e0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000400       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_aranges
+                0x0000000000000420       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_aranges
+                0x0000000000000440       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_aranges
+                0x0000000000000460       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_aranges
+                0x0000000000000480       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_aranges
+                0x00000000000004a0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_line     0x0000000000000000     0x45a6
+ .debug_line    0x0000000000000000      0x550 build/default/production/src/bme_280/bme280.o
+ .debug_line    0x0000000000000550      0x5ab build/default/production/src/bme_280/sercom2_spi.o
+ .debug_line    0x0000000000000afb      0x26e build/default/production/src/clock/clock.o
+ .debug_line    0x0000000000000d69      0x30c build/default/production/src/delay_timer/delay_timer.o
+ .debug_line    0x0000000000001075      0x601 build/default/production/src/dmac/dmac_transmit.o
+ .debug_line    0x0000000000001676      0x139 build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_line    0x00000000000017af      0x231 build/default/production/src/usb_serial/usb_serial.o
+ .debug_line    0x00000000000019e0      0x113 build/default/production/src/main.o
+ .debug_line    0x0000000000001af3       0xa5 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_line    0x0000000000001b98       0xee d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_line    0x0000000000001c86      0x1bf d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_line    0x0000000000001e45       0x9a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .debug_line    0x0000000000001edf       0xb5 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .debug_line    0x0000000000001f94      0x1a7 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_line    0x000000000000213b      0x65f d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_line    0x000000000000279a      0x166 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_line    0x0000000000002900      0x1c8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_line    0x0000000000002ac8      0x6c5 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_line    0x000000000000318d      0x173 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_line    0x0000000000003300      0x15c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_line    0x000000000000345c       0xfb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .debug_line    0x0000000000003557      0x1c4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_line    0x000000000000371b      0x211 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_line    0x000000000000392c      0x172 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_line    0x0000000000003a9e       0x9c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x0000000000003b3a       0xe7 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_line    0x0000000000003c21       0xb9 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_line    0x0000000000003cda       0x91 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000003d6b      0x35b d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_line    0x00000000000040c6       0xa5 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .debug_line    0x000000000000416b       0xee d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_line    0x0000000000004259       0xe3 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_line    0x000000000000433c       0xb2 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_line    0x00000000000043ee       0xc1 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_line    0x00000000000044af       0x6f d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_line    0x000000000000451e       0x88 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_str      0x0000000000000000     0x84c6
+ .debug_str     0x0000000000000000      0x5f3 build/default/production/src/bme_280/bme280.o
+ .debug_str     0x00000000000005f3      0xd84 build/default/production/src/bme_280/sercom2_spi.o
+ .debug_str     0x0000000000001377      0x7fa build/default/production/src/clock/clock.o
+ .debug_str     0x0000000000001b71      0x9ac build/default/production/src/delay_timer/delay_timer.o
+ .debug_str     0x000000000000251d      0xc84 build/default/production/src/dmac/dmac_transmit.o
+ .debug_str     0x00000000000031a1      0x49a build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_str     0x000000000000363b      0x75b build/default/production/src/usb_serial/usb_serial.o
+ .debug_str     0x0000000000003d96      0x375 build/default/production/src/main.o
+ .debug_str     0x000000000000410b      0x209 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_str     0x0000000000004314      0x224 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_str     0x0000000000004538      0x3d7 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_str     0x000000000000490f      0x236 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .debug_str     0x0000000000004b45      0x342 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .debug_str     0x0000000000004e87      0x311 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_str     0x0000000000005198      0x361 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_str     0x00000000000054f9      0x2cd d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_str     0x00000000000057c6      0x2da d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_str     0x0000000000005aa0      0x3f4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_str     0x0000000000005e94      0x229 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_str     0x00000000000060bd      0x256 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_str     0x0000000000006313      0x242 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .debug_str     0x0000000000006555      0x301 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_str     0x0000000000006856      0x2d8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_str     0x0000000000006b2e      0x2f6 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_str     0x0000000000006e24       0xdb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .debug_str     0x0000000000006eff      0x2bc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_str     0x00000000000071bb      0x1ff d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_str     0x00000000000073ba       0xdb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000007495      0x2fc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_str     0x0000000000007791       0xdb d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+ .debug_str     0x000000000000786c      0x232 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_str     0x0000000000007a9e      0x21e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_str     0x0000000000007cbc      0x21a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_str     0x0000000000007ed6      0x22e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_str     0x0000000000008104      0x1e2 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_str     0x00000000000082e6      0x1e0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_frame    0x0000000000000000      0xc48
+ .debug_frame   0x0000000000000000      0x190 build/default/production/src/bme_280/bme280.o
+ .debug_frame   0x0000000000000190      0x1d8 build/default/production/src/bme_280/sercom2_spi.o
+ .debug_frame   0x0000000000000368       0xbc build/default/production/src/clock/clock.o
+ .debug_frame   0x0000000000000424       0xc8 build/default/production/src/delay_timer/delay_timer.o
+ .debug_frame   0x00000000000004ec      0x19c build/default/production/src/dmac/dmac_transmit.o
+ .debug_frame   0x0000000000000688       0x30 build/default/production/src/usb_serial/sercom3_usart.o
+ .debug_frame   0x00000000000006b8       0xe8 build/default/production/src/usb_serial/usb_serial.o
+ .debug_frame   0x00000000000007a0       0x38 build/default/production/src/main.o
+ .debug_frame   0x00000000000007d8       0x48 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_frame   0x0000000000000820       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_frame   0x0000000000000840       0x38 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_frame   0x0000000000000878       0x48 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_frame   0x00000000000008c0       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_frame   0x00000000000008f4       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_frame   0x0000000000000914       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_frame   0x000000000000093c       0xbc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_frame   0x00000000000009f8       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_frame   0x0000000000000a20       0x38 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_frame   0x0000000000000a58       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_frame   0x0000000000000a84       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_frame   0x0000000000000aac       0x2c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_frame   0x0000000000000ad8       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_frame   0x0000000000000b0c       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000000b40       0x30 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000000b70       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_frame   0x0000000000000b98       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_frame   0x0000000000000bb8       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_frame   0x0000000000000be0       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_frame   0x0000000000000c00       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_frame   0x0000000000000c20       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_ranges   0x0000000000000000      0x2c8
+ .debug_ranges  0x0000000000000000       0x18 build/default/production/src/usb_serial/usb_serial.o
+ .debug_ranges  0x0000000000000018       0x20 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+ .debug_ranges  0x0000000000000038       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .debug_ranges  0x0000000000000048       0x38 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_ranges  0x0000000000000080       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .debug_ranges  0x0000000000000098       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .debug_ranges  0x00000000000000a8       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .debug_ranges  0x00000000000000b8       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .debug_ranges  0x00000000000000c8       0x58 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .debug_ranges  0x0000000000000120       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .debug_ranges  0x0000000000000130       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .debug_ranges  0x0000000000000148       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .debug_ranges  0x0000000000000158       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .debug_ranges  0x0000000000000168       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .debug_ranges  0x0000000000000178       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+ .debug_ranges  0x00000000000001a0       0xc8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000000268       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .debug_ranges  0x0000000000000278       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .debug_ranges  0x0000000000000288       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .debug_ranges  0x0000000000000298       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+ .debug_ranges  0x00000000000002a8       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_ranges  0x00000000000002b8       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+
+.stack          0x0000000020000218      0x100
+ .stack         0x0000000020000218      0x100 stack
+
+.bss%1          0x0000000020000000       0xc0
+ .bss           0x0000000020000000       0xc0 build/default/production/src/dmac/dmac_transmit.o
+
+.bss%2          0x00000000200000c0       0x50
+ .bss           0x00000000200000c0       0x50 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+                0x00000000200000c0                __progname_full
+                0x00000000200000c0                program_invocation_name
+                0x00000000200000c4                program_invocation_short_name
+                0x00000000200000c4                __progname
+                0x00000000200000c8                __sysinfo
+                0x00000000200000cc                __hwcap
+                0x00000000200000d0                __libc
+
+.bss%3          0x0000000020000110       0x45
+ .bss           0x0000000020000110       0x45 build/default/production/src/usb_serial/usb_serial.o
+
+.bss%4          0x0000000020000158       0x2d
+ .bss           0x0000000020000158       0x2d build/default/production/src/bme_280/sercom2_spi.o
+
+.bss%5          0x0000000020000188       0x28
+ .bss           0x0000000020000188       0x28 build/default/production/src/bme_280/bme280.o
+
+.bss%6          0x00000000200001b0       0x1c
+ .bss           0x00000000200001b0       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+
+.bss%7          0x00000000200001cc        0xc
+ .bss           0x00000000200001cc        0xc build/default/production/src/delay_timer/delay_timer.o
+
+.bss%8          0x00000000200001d8        0x4
+ .bss           0x00000000200001d8        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+
+.bss%9          0x00000000200001dc        0x4
+ .bss           0x00000000200001dc        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+                0x00000000200001dc                __errno_val
+
+.bss%10         0x00000000200001e0        0x4
+ .bss           0x00000000200001e0        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+                0x00000000200001e0                __environ
+                0x00000000200001e0                environ
+                0x00000000200001e0                ___environ
+                0x00000000200001e0                _environ
+
+.bss%z1         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.bss%z2         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+
+.bss%z3         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+
+.bss%z4         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+
+.bss%z5         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+
+.bss%z6         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+
+.bss%z7         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+
+.bss%z8         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+
+.bss%z9         0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+
+.bss%z10        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+
+.bss%z11        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+
+.bss%z12        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+
+.bss%z13        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+
+.bss%z14        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+
+.bss%z15        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+
+.bss%z16        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+
+.bss%z17        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+
+.bss%z18        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+
+.bss%z19        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+
+.bss%z20        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+
+.bss%z21        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+
+.bss%z22        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+
+.bss%z23        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+
+.bss%z24        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+
+.bss%z25        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+
+.bss%z26        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+
+.bss%z27        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+
+.bss%z28        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 build/default/production/src/main.o
+
+.bss%z29        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 build/default/production/src/usb_serial/sercom3_usart.o
+
+.bss%z30        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 build/default/production/src/clock/clock.o
+
+.bss%z31        0x0000000000000000        0x0
+ .bss           0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+
+.data%11        0x00000000200001e4        0x4
+ .data          0x00000000200001e4        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+                0x00000000200001e4                __dso_handle
+
+.eh_frame%12    0x00000000200001e8        0x4
+ .eh_frame      0x00000000200001e8        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+
+.data%z32       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.data%z33       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+
+.data%z34       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+
+.data%z35       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+
+.data%z36       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+
+.data%z37       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+
+.data%z38       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+
+.data%z39       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+
+.data%z40       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+
+.data%z41       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+
+.data%z42       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+
+.data%z43       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+
+.data%z44       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+
+.data%z45       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+
+.data%z46       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+
+.data%z47       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+
+.data%z48       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+
+.data%z49       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+
+.data%z50       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+
+.data%z51       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+
+.data%z52       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+
+.data%z53       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+
+.data%z54       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+
+.data%z55       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+
+.data%z56       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+
+.data%z57       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+
+.data%z58       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+
+.data%z59       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+
+.data%z60       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+
+.data%z61       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+
+.data%z62       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+
+.data%z63       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/main.o
+
+.data%z64       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/usb_serial/usb_serial.o
+
+.data%z65       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/usb_serial/sercom3_usart.o
+
+.data%z66       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/dmac/dmac_transmit.o
+
+.data%z67       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/delay_timer/delay_timer.o
+
+.data%z68       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/clock/clock.o
+
+.data%z69       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/bme_280/sercom2_spi.o
+
+.data%z70       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 build/default/production/src/bme_280/bme280.o
+
+.eh_frame%z71   0x0000000000000000        0x0
+ .eh_frame      0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+
+.data%z72       0x0000000000000000        0x0
+ .data          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+
+.text%13        0x0000000000000184      0xb78
+ .text          0x0000000000000184      0xb78 build/default/production/src/bme_280/bme280.o
+                0x00000000000001b0                SPI_BME280_Initialize
+                0x00000000000004dc                SPI_BME280_GetTemperature
+                0x00000000000005be                SPI_BME280_GetAltitude
+                0x0000000000000666                SPI_BME280_SetMode
+                0x00000000000007f8                SPI_BME280_GetPressure
+                0x0000000000000bd2                SPI_BME280_GetHumidity
+
+.text%14        0x0000000000000cfc      0xaf4
+ .text          0x0000000000000cfc      0xaf4 build/default/production/src/dmac/dmac_transmit.o
+                0x0000000000000e2c                DMAC_Initialize
+                0x0000000000001036                DMAC_ChannelTransfer
+                0x0000000000001234                DMAC_ChannelGetTransferredCount
+                0x0000000000001286                DMAC_ChannelIsBusy
+                0x000000000000131e                DMAC_ChannelCallbackRegister
+                0x0000000000001364                DMAC_0_Handler
+                0x0000000000001448                DMAC_1_Handler
+                0x000000000000152c                DMAC_2_Handler
+                0x0000000000001610                DMAC_3_Handler
+                0x00000000000016f4                DMAC_OTHER_Handler
+
+.text%15        0x00000000000017f0      0xa40
+ .text          0x00000000000017f0      0xa40 build/default/production/src/bme_280/sercom2_spi.o
+                0x0000000000001920                SERCOM2_SPI_Initialize
+                0x00000000000019e2                SERCOM2_SPI_TransferSetup
+                0x0000000000001b3c                SERCOM2_0_Handler
+                0x0000000000001b4a                SERCOM2_1_Handler
+                0x0000000000001b58                SERCOM2_2_Handler
+                0x0000000000001b66                SERCOM2_OTHER_Handler
+                0x0000000000001b74                SERCOM2_SPI_CallbackRegister
+                0x0000000000001b9e                SERCOM2_SPI_IsBusy
+                0x0000000000001c1a                SERCOM2_SPI_IsTransmitterBusy
+                0x0000000000001c3c                SERCOM2_SPI_WriteRead
+                0x0000000000001f3e                SERCOM2_SPI_Write
+                0x0000000000001f5e                SERCOM2_SPI_Read
+                0x0000000000001f7e                SERCOM2_SPI_InterruptHandler
+
+.text.pow%16    0x0000000000002230      0x4b0
+ .text.pow      0x0000000000002230      0x4b0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(pow.o)
+                0x0000000000002230                pow
+
+.text.__fmt_fp%17
+                0x00000000000026e0      0x4ac
+ .text.__fmt_fp
+                0x00000000000026e0      0x4ac d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+                0x00000000000026e0                __fmt_f_needed
+                0x00000000000026e0                __fmt_fp
+
+.text%18        0x0000000000002b8c      0x378
+ .text          0x0000000000002b8c      0x378 build/default/production/src/usb_serial/usb_serial.o
+                0x0000000000002b8c                USBSerial_Initialize
+                0x0000000000002be4                USBSerial_Write
+                0x0000000000002c30                USBSerial_Read
+                0x0000000000002cf0                USBSerial_ReadLine
+                0x0000000000002db4                USBSerial_BytesAvailable
+
+.text.__printf_core%19
+                0x0000000000002f04      0x330
+ .text.__printf_core
+                0x0000000000002f04      0x330 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000002f04                __printf_core
+
+.text%20        0x0000000000003234      0x30a
+ .text          0x0000000000003234      0x30a build/default/production/src/delay_timer/delay_timer.o
+                0x0000000000003364                delay_ms
+                0x0000000000003432                DelayTimer_Initialize
+                0x00000000000034d2                TCC0_Handler
+
+.text%21        0x000000000000353e      0x29e
+ .text          0x000000000000353e      0x29e build/default/production/src/clock/clock.o
+                0x000000000000353e                PM_Initialize
+                0x00000000000036aa                CLOCK_Initialize
+
+.text%22        0x00000000000037dc      0x25a
+ .text          0x00000000000037dc      0x25a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_divdi3.o)
+                0x00000000000037dc                __divdi3
+
+.text.exp%23    0x0000000000003a38      0x244
+ .text.exp      0x0000000000003a38      0x244 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(exp.o)
+                0x0000000000003a38                exp
+
+.text.log%24    0x0000000000003c7c      0x200
+ .text.log      0x0000000000003c7c      0x200 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(log.o)
+                0x0000000000003c7c                log
+
+.text.__aeabi_dadd%25
+                0x0000000000003e7c      0x1c8
+ .text.__aeabi_dadd
+                0x0000000000003e7c      0x1c8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dadd.o)
+                0x0000000000003e7c                __aeabi_dadd
+                0x0000000000003e82                .L__aeabi_dadd_fast_entry
+
+.text.__aeabi_dmul_aux%26
+                0x0000000000004044      0x186
+ .text.__aeabi_dmul_aux
+                0x0000000000004044      0x186 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dmul_aux.o)
+                0x0000000000004044                __aeabi_dmul_aux
+                0x0000000000004078                __aeabi_dmul
+
+.text%27        0x00000000000041ca       0xd8
+ .text          0x00000000000041ca       0xd8 build/default/production/src/main.o
+                0x00000000000041ca                main
+
+.text%28        0x00000000000042a2       0xd6
+ .text          0x00000000000042a2       0xd6 build/default/production/src/usb_serial/sercom3_usart.o
+                0x00000000000042a2                SERCOM3_USART_Initialize
+
+.text.__SEGGER_RTL_float64_PolyEvalP%29
+                0x0000000000004378       0xd4
+ .text.__SEGGER_RTL_float64_PolyEvalP
+                0x0000000000004378       0xd4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalP.o)
+                0x0000000000004378                __SEGGER_RTL_float64_PolyEvalP
+
+.text.__aeabi_ddiv%30
+                0x000000000000444c       0xc0
+ .text.__aeabi_ddiv
+                0x000000000000444c       0xc0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ddiv.o)
+                0x000000000000444c                __aeabi_ddiv
+
+.text.floor%31  0x000000000000450c       0xbc
+ .text.floor    0x000000000000450c       0xbc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(floor.o)
+                0x000000000000450c                floor
+
+.text.__pop_int%32
+                0x00000000000045c8       0xb6
+ .text.__pop_int
+                0x00000000000045c8       0xb6 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+                0x00000000000045c8                __pop_int_needed
+                0x00000000000045c8                __pop_int
+
+.dinit%33       0x0000000000004680       0xa0
+ .dinit         0x0000000000004680       0xa0 data_init
+
+.text.__aeabi_fdiv%34
+                0x0000000000004720       0x94
+ .text.__aeabi_fdiv
+                0x0000000000004720       0x94 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fdiv.o)
+                0x0000000000004720                __aeabi_fdiv
+
+.text.__SEGGER_RTL_float64_PolyEvalQ%35
+                0x00000000000047b4       0x80
+ .text.__SEGGER_RTL_float64_PolyEvalQ
+                0x00000000000047b4       0x80 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_PolyEvalQ.o)
+                0x00000000000047b4                __SEGGER_RTL_float64_PolyEvalQ
+
+.text.Reset_Handler%36
+                0x0000000000004834       0x7e
+ .text.Reset_Handler
+                0x0000000000004834       0x7e C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+                0x0000000000004834                Reset_Handler
+
+.text.__pad%37  0x00000000000048b2       0x7a
+ .text.__pad    0x00000000000048b2       0x7a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x00000000000048b2                __pad
+
+.text.__pop_ptr%38
+                0x000000000000492c       0x68
+ .text.__pop_ptr
+                0x000000000000492c       0x68 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+                0x000000000000492c                __pop_ptr
+                0x000000000000492c                __pop_ptr_needed
+
+.text.__aeabi_d2f%39
+                0x0000000000004994       0x60
+ .text.__aeabi_d2f
+                0x0000000000004994       0x60 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2f.o)
+                0x0000000000004994                __aeabi_d2f
+
+.text.__libc_start_init%40
+                0x00000000000049f4       0x5c
+ .text.__libc_start_init
+                0x00000000000049f4       0x5c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+                0x00000000000049f4                __libc_init_array
+
+.rodata%41      0x0000000000004a50       0x58
+ .rodata        0x0000000000004a50       0x58 build/default/production/src/main.o
+
+.text.ldexp%42  0x0000000000004aa8       0x50
+ .text.ldexp    0x0000000000004aa8       0x50 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(ldexp.o)
+                0x0000000000004aa8                ldexp
+
+.text.__vsnprintf%43
+                0x0000000000004af8       0x4c
+ .text.__vsnprintf
+                0x0000000000004af8       0x4c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+                0x0000000000004af8                __vsnprintf
+
+.text%44        0x0000000000004b44       0x48
+ .text          0x0000000000004b44       0x48 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_aeabi_ldivmod.o)
+                0x0000000000004b44                __aeabi_ldivmod
+
+.text.__aeabi_f2d%45
+                0x0000000000004b8c       0x44
+ .text.__aeabi_f2d
+                0x0000000000004b8c       0x44 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_f2d.o)
+                0x0000000000004b8c                __aeabi_f2d
+
+.text.__aeabi_dcmple%46
+                0x0000000000004bd0       0x44
+ .text.__aeabi_dcmple
+                0x0000000000004bd0       0x44 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmple.o)
+                0x0000000000004bd0                __aeabi_dcmple
+
+.text%47        0x0000000000004c14       0x44
+ .text          0x0000000000004c14       0x44 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+                0x0000000000004c14                __muldi3
+                0x0000000000004c14                __aeabi_lmul
+
+.text%48        0x0000000000004c58       0x40
+ .text          0x0000000000004c58       0x40 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+
+.text.__aeabi_dcmplt%49
+                0x0000000000004c98       0x3e
+ .text.__aeabi_dcmplt
+                0x0000000000004c98       0x3e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmplt.o)
+                0x0000000000004c98                __aeabi_dcmplt
+
+.text.atoi%50   0x0000000000004cd6       0x3e
+ .text.atoi     0x0000000000004cd6       0x3e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+                0x0000000000004cd6                atoi
+
+.text.__aeabi_dcmpgt%51
+                0x0000000000004d14       0x3e
+ .text.__aeabi_dcmpgt
+                0x0000000000004d14       0x3e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpgt.o)
+                0x0000000000004d14                __aeabi_dcmpgt
+
+.text.frexp%52  0x0000000000004d54       0x3c
+ .text.frexp    0x0000000000004d54       0x3c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(frexp.o)
+                0x0000000000004d54                frexp
+
+.text%53        0x0000000000004d90       0x3c
+ .text          0x0000000000004d90       0x3c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_clzsi2.o)
+                0x0000000000004d90                __clzsi2
+
+.text.__pic32c_data_initialization%54
+                0x0000000000004dcc       0x34
+ .text.__pic32c_data_initialization
+                0x0000000000004dcc       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+                0x0000000000004dcc                __pic32c_data_initialization
+
+.text.__aeabi_d2iz%55
+                0x0000000000004e00       0x34
+ .text.__aeabi_d2iz
+                0x0000000000004e00       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2iz.o)
+                0x0000000000004e00                __aeabi_d2iz
+
+.text.__fmt_state%56
+                0x0000000000004e34       0x34
+ .text.__fmt_state
+                0x0000000000004e34       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000004e34                __fmt_state
+
+.text%57        0x0000000000004e68       0x34
+ .text          0x0000000000004e68       0x34 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(bpabi.o)
+                0x0000000000004e68                __gnu_ldivmod_helper
+
+.text.__aeabi_fcmple%58
+                0x0000000000004e9c       0x32
+ .text.__aeabi_fcmple
+                0x0000000000004e9c       0x32 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_fcmple.o)
+                0x0000000000004e9c                __aeabi_fcmple
+
+.text.__aeabi_dcmpeq%59
+                0x0000000000004ece       0x2e
+ .text.__aeabi_dcmpeq
+                0x0000000000004ece       0x2e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dcmpeq.o)
+                0x0000000000004ece                __aeabi_dcmpeq
+
+.text.__aeabi_d2uiz%60
+                0x0000000000004efc       0x2e
+ .text.__aeabi_d2uiz
+                0x0000000000004efc       0x2e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_d2uiz.o)
+                0x0000000000004efc                __aeabi_d2uiz
+                0x0000000000004f00                .L__aeabi_d2uiz_fast_entry
+
+.text.__pop_float%61
+                0x0000000000004f2a       0x2a
+ .text.__pop_float
+                0x0000000000004f2a       0x2a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+                0x0000000000004f2a                __pop_float_needed
+                0x0000000000004f2a                __pop_float
+
+.rodata.__SEGGER_RTL_float64_Log%62
+                0x0000000000004f58       0x28
+ .rodata.__SEGGER_RTL_float64_Log
+                0x0000000000004f58       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__SEGGER_RTL_float64_Log.o)
+                0x0000000000004f58                __SEGGER_RTL_float64_Log
+
+.text.__string_out%63
+                0x0000000000004f80       0x28
+ .text.__string_out
+                0x0000000000004f80       0x28 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000004f80                __out
+
+.text.__aeabi_i2f%64
+                0x0000000000004fa8       0x26
+ .text.__aeabi_i2f
+                0x0000000000004fa8       0x26 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2f.o)
+                0x0000000000004fa8                __aeabi_i2f
+
+.text.__aeabi_ui2f%65
+                0x0000000000004fce       0x1e
+ .text.__aeabi_ui2f
+                0x0000000000004fce       0x1e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2f.o)
+                0x0000000000004fce                __aeabi_ui2f
+
+.text.__dinit_copy%66
+                0x0000000000004fec       0x1e
+ .text.__dinit_copy
+                0x0000000000004fec       0x1e d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+                0x0000000000004fec                __dinit_copy_needed
+                0x0000000000004fec                __dinit_copy
+
+.text.__aeabi_i2d%67
+                0x000000000000500a       0x1c
+ .text.__aeabi_i2d
+                0x000000000000500a       0x1c d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_i2d.o)
+                0x000000000000500a                __aeabi_i2d
+
+.text.__aeabi_ui2d%68
+                0x0000000000005026       0x1a
+ .text.__aeabi_ui2d
+                0x0000000000005026       0x1a d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_ui2d.o)
+                0x0000000000005026                __aeabi_ui2d
+
+.text.strlen%69
+                0x0000000000005040       0x18
+ .text.strlen   0x0000000000005040       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+                0x0000000000005040                strlen
+
+.text.__vfprintf%70
+                0x0000000000005058       0x18
+ .text.__vfprintf
+                0x0000000000005058       0x18 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+                0x0000000000005058                __vfprintf
+
+.text.__wrap_snprintf%71
+                0x0000000000005070       0x16
+ .text.__wrap_snprintf
+                0x0000000000005070       0x16 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+                0x0000000000005070                _snprintf_eEfFgGn
+                0x0000000000005070                _dsnprintf_eEfFgGn
+
+.rodata%72      0x0000000000005086       0x16
+ .rodata        0x0000000000005086       0x16 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+
+.rodata%73      0x000000000000509c       0x14
+ .rodata        0x000000000000509c       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+
+.text.memcpy%74
+                0x00000000000050b0       0x14
+ .text.memcpy   0x00000000000050b0       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+                0x00000000000050b0                memcpy
+
+.text.memset%75
+                0x00000000000050c4       0x14
+ .text.memset   0x00000000000050c4       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+                0x00000000000050c4                memset
+
+.text.stpcpy%76
+                0x00000000000050d8       0x14
+ .text.stpcpy   0x00000000000050d8       0x14 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+                0x00000000000050d8                __stpcpy
+                0x00000000000050d8                stpcpy
+
+.text.__aeabi_dsub%77
+                0x00000000000050ec       0x12
+ .text.__aeabi_dsub
+                0x00000000000050ec       0x12 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(__aeabi_dsub.o)
+                0x00000000000050ec                __aeabi_dsub
+
+.text.__dinit_clear%78
+                0x00000000000050fe       0x12
+ .text.__dinit_clear
+                0x00000000000050fe       0x12 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+                0x00000000000050fe                __dinit_clear
+                0x00000000000050fe                __dinit_clear_needed
+
+.text.__sio_snprintf_eEfFgGn%79
+                0x0000000000005110       0x10
+ .text.__sio_snprintf_eEfFgGn
+                0x0000000000005110       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+                0x0000000000005110                __sio_snprintf_eEfFgGn
+
+.rodata.str1.1%80
+                0x0000000000005120       0x10
+ .rodata.str1.1
+                0x0000000000005120       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+
+.text.fma%81    0x0000000000005130       0x10
+ .text.fma      0x0000000000005130       0x10 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libm-fast-emfloat.a(fma.o)
+                0x0000000000005130                fma
+
+.text.tolower%82
+                0x0000000000005140        0xe
+ .text.tolower  0x0000000000005140        0xe d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+                0x0000000000005140                tolower
+
+.rodata%83      0x0000000000005150        0xc
+ .rodata        0x0000000000005150        0xc build/default/production/src/bme_280/bme280.o
+
+.text.strcpy%84
+                0x000000000000515c        0xc
+ .text.strcpy   0x000000000000515c        0xc d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+                0x000000000000515c                strcpy
+
+.rodata.str1.1%85
+                0x0000000000005168        0x8
+ .rodata.str1.1
+                0x0000000000005168        0x8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+
+.text.__tolower_l%86
+                0x0000000000005170        0x8
+ .text.__tolower_l
+                0x0000000000005170        0x8 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+                0x0000000000005170                tolower_l
+                0x0000000000005170                __tolower_l
+
+.text.__dummy_decompress%87
+                0x0000000000004f54        0x4
+ .text.__dummy_decompress
+                0x0000000000004f54        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+                0x0000000000004f54                __dinit_decompress
+                0x0000000000004f54                __dinit_copy_val_data
+                0x0000000000004f54                __dinit_copy_emb
+
+.text.__dummy_fmt3%88
+                0x0000000000005178        0x4
+ .text.__dummy_fmt3
+                0x0000000000005178        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000005178                __fmt_o
+                0x0000000000005178                __fmt_d
+                0x0000000000005178                __fmt_u
+
+.text.__dummy_fmt4%89
+                0x000000000000517c        0x4
+ .text.__dummy_fmt4
+                0x000000000000517c        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x000000000000517c                __fmt_x
+                0x000000000000517c                __fmt_a
+
+.text.__dummy_fmts%90
+                0x0000000000005180        0x4
+ .text.__dummy_fmts
+                0x0000000000005180        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+                0x0000000000005180                __fmt_s
+
+.text%91        0x0000000000005184        0x4
+ .text          0x0000000000005184        0x4 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000000000005184                __aeabi_idiv0
+                0x0000000000005184                __aeabi_ldiv0
+
+.text.Dummy_Handler%92
+                0x0000000000003a36        0x2
+ .text.Dummy_Handler
+                0x0000000000003a36        0x2 C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+                0x0000000000003a36                SVCall_Handler
+                0x0000000000003a36                SERCOM0_2_Handler
+                0x0000000000003a36                EVSYS_0_Handler
+                0x0000000000003a36                TRNG_Handler
+                0x0000000000003a36                ADC_RESRDY_Handler
+                0x0000000000003a36                HardFault_Handler
+                0x0000000000003a36                TC2_Handler
+                0x0000000000003a36                AC_Handler
+                0x0000000000003a36                EIC_EXTINT_5_Handler
+                0x0000000000003a36                SERCOM3_1_Handler
+                0x0000000000003a36                SysTick_Handler
+                0x0000000000003a36                SERCOM4_OTHER_Handler
+                0x0000000000003a36                SERCOM3_2_Handler
+                0x0000000000003a36                EIC_EXTINT_6_Handler
+                0x0000000000003a36                PendSV_Handler
+                0x0000000000003a36                EVSYS_3_Handler
+                0x0000000000003a36                NonMaskableInt_Handler
+                0x0000000000003a36                TCC1_Handler
+                0x0000000000003a36                EIC_EXTINT_4_Handler
+                0x0000000000003a36                EIC_EXTINT_7_Handler
+                0x0000000000003a36                SERCOM0_OTHER_Handler
+                0x0000000000003a36                SERCOM0_0_Handler
+                0x0000000000003a36                RTC_Handler
+                0x0000000000003a36                SERCOM4_0_Handler
+                0x0000000000003a36                SERCOM1_OTHER_Handler
+                0x0000000000003a36                EVSYS_1_Handler
+                0x0000000000003a36                WDT_Handler
+                0x0000000000003a36                TRAM_Handler
+                0x0000000000003a36                EVSYS_NSCHK_Handler
+                0x0000000000003a36                EIC_EXTINT_1_Handler
+                0x0000000000003a36                SERCOM5_0_Handler
+                0x0000000000003a36                TC1_Handler
+                0x0000000000003a36                EIC_EXTINT_0_Handler
+                0x0000000000003a36                DAC_UNDERRUN_Handler
+                0x0000000000003a36                DAC_EMPTY_Handler
+                0x0000000000003a36                PAC_Handler
+                0x0000000000003a36                USB_Handler
+                0x0000000000003a36                SERCOM4_1_Handler
+                0x0000000000003a36                Dummy_Handler
+                0x0000000000003a36                SERCOM5_1_Handler
+                0x0000000000003a36                SERCOM0_1_Handler
+                0x0000000000003a36                SERCOM5_OTHER_Handler
+                0x0000000000003a36                TCC3_Handler
+                0x0000000000003a36                TCC2_Handler
+                0x0000000000003a36                EIC_EXTINT_2_Handler
+                0x0000000000003a36                SERCOM1_1_Handler
+                0x0000000000003a36                EVSYS_7_Handler
+                0x0000000000003a36                I2S_Handler
+                0x0000000000003a36                NVMCTRL_Handler
+                0x0000000000003a36                PORT_Handler
+                0x0000000000003a36                SYSTEM_Handler
+                0x0000000000003a36                SERCOM1_0_Handler
+                0x0000000000003a36                SERCOM1_2_Handler
+                0x0000000000003a36                SERCOM3_0_Handler
+                0x0000000000003a36                SERCOM4_2_Handler
+                0x0000000000003a36                EVSYS_4_Handler
+                0x0000000000003a36                SERCOM5_2_Handler
+                0x0000000000003a36                EIC_EXTINT_3_Handler
+                0x0000000000003a36                SERCOM3_OTHER_Handler
+                0x0000000000003a36                PTC_Handler
+                0x0000000000003a36                EVSYS_6_Handler
+                0x0000000000003a36                EVSYS_5_Handler
+                0x0000000000003a36                EVSYS_2_Handler
+                0x0000000000003a36                FREQM_Handler
+                0x0000000000003a36                TC0_Handler
+                0x0000000000003a36                EIC_OTHER_Handler
+                0x0000000000003a36                ADC_OTHER_Handler
+
+.text.__dummy_init_tls%93
+                0x000000000000467e        0x2
+ .text.__dummy_init_tls
+                0x000000000000467e        0x2 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+                0x000000000000467e                xc32_init_tls
+
+.text.__dummy%94
+                0x0000000000004d52        0x2
+ .text.__dummy  0x0000000000004d52        0x2 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+                0x0000000000004d52                __init_stdio
+                0x0000000000004d52                __init_host
+
+.text%z73       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.text%z74       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(pic32_data_init_clear.o)
+
+.text%z75       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+
+.text%z76       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+
+.text%z77       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(stpcpy.o)
+
+.text%z78       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strcpy.o)
+
+.text%z79       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memset.o)
+
+.text%z80       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(memcpy.o)
+
+.text%z81       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vfprintf.o)
+
+.text%z82       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_int.o)
+
+.text%z83       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__int_vsnprintf.o)
+
+.text%z84       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__environ.o)
+
+.text%z85       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(tolower.o)
+
+.text%z86       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(atoi.o)
+
+.text%z87       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__printf_core.o)
+
+.text%z88       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_ptr.o)
+
+.text%z89       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__pop_float.o)
+
+.text%z90       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__fmt_fp.o)
+
+.text%z91       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__sio_snprintf_eEfFgGn.o)
+
+.text%z92       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(libc.o)
+
+.text%z93       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__errno_location.o)
+
+.text%z94       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-musl.a(__libc_start_main.o)
+
+.text%z95       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libc-size-musl.a(strlen.o)
+
+.text%z96       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp\libpic32c.a(data_init.o)
+
+.text%z97       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 C:\Users\WX-78\AppData\Local\Temp\cc4tCp3T.o
+
+.text%z98       0x0000000000000000        0x0
+ .text          0x0000000000000000        0x0 d:/programs/mplab/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
