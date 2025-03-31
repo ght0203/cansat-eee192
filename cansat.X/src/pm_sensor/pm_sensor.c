@@ -82,13 +82,10 @@ uint16_t PMS_GetDataPM1(void) {
     lsb = sampled_bytes[5];
     return ((uint16_t) msb << 8) | lsb;
 }
-uint16_t PMS_GetDataPM2_5(void) {
-    uint8_t msb, lsb;
-    msb = sampled_bytes[6];
-    lsb = sampled_bytes[7];
-    return ((uint16_t) msb << 8) | lsb;
-}
 
+uint16_t PMS_GetDataPM2_5(void) {
+    return ((uint16_t)sampled_bytes[6] << 8) | sampled_bytes[7];
+}
 
 // To be used only in active mode
 static bool PMSUsart_ValidData(uint8_t data[32]) {

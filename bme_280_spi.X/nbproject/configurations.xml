@@ -18,6 +18,10 @@
         <logicalFolder name="dmac" displayName="dmac" projectFiles="true">
           <itemPath>src/dmac/dmac_transmit.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="pms7003" displayName="pms7003" projectFiles="true">
+          <itemPath>src/pms7003/pms7003.h</itemPath>
+          <itemPath>src/pms7003/sercom1_usart.h</itemPath>
+        </logicalFolder>
         <logicalFolder name="usb_serial" displayName="usb_serial" projectFiles="true">
           <itemPath>src/usb_serial/sercom3_usart.h</itemPath>
           <itemPath>src/usb_serial/usb_serial.h</itemPath>
@@ -50,6 +54,10 @@
         </logicalFolder>
         <logicalFolder name="dmac" displayName="dmac" projectFiles="true">
           <itemPath>src/dmac/dmac_transmit.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pms7003" displayName="pms7003" projectFiles="true">
+          <itemPath>src/pms7003/pms7003.c</itemPath>
+          <itemPath>src/pms7003/sercom1_usart.c</itemPath>
         </logicalFolder>
         <logicalFolder name="usb_serial" displayName="usb_serial" projectFiles="true">
           <itemPath>src/usb_serial/sercom3_usart.c</itemPath>
