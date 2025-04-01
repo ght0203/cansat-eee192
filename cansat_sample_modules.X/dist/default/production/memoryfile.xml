@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/production/bme_280_spi.X.production.elf">
+  <executable name="dist/default/production/cansat_sample_modules.X.production.elf">
     <memory name="program">
       <units>bytes</units>
       <length>262144</length>
-      <used>21540</used>
-      <free>240604</free>
+      <used>27106</used>
+      <free>235038</free>
     </memory>
     <memory name="data">
       <units>bytes</units>
       <length>32768</length>
-      <used>550</used>
-      <free>32218</free>
+      <used>1254</used>
+      <free>31514</free>
     </memory>
   </executable>
 </project>

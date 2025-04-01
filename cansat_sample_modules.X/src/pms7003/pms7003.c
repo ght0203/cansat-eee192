@@ -5,6 +5,7 @@
 
 #include <string.h>  // Ensure <string.h> is included for memcpy
 #define RX_FRAME_SIZE 32  // Adjust size as needed
+#define DMA_RX_CHANNEL DMAC_CHANNEL_3
 
 static void ReadBytesCycle(DMAC_TRANSFER_EVENT event, uintptr_t contextHandle);
 static void PMS_PollData(void);
@@ -18,7 +19,7 @@ void PMS_Initialize( void ) {
     PORT_SEC_REGS->GROUP[0].PORT_PMUX[8] |= 0x20U;
     
     // Register DMA callback (ReadBytesCycle function executes everytime to read 32 bytes in background)
-    DMAC_ChannelCallbackRegister(DMAC_CHANNEL_3, ReadBytesCycle, 0);
+    DMAC_ChannelCallbackRegister(DMA_RX_CHANNEL, ReadBytesCycle, 0);
     PMS_PollData(); // starts DMA reading in background, independent of program cycle
 }
 
@@ -40,8 +41,8 @@ void PMS_RawBytes(void) // print raw bytes for debugging
 
 // Start a DMA receive transfer (polling 32 bytes in background)
 static void PMS_PollData(void) {
-    if (!DMAC_ChannelIsBusy(DMAC_CHANNEL_3)) {
-        DMAC_ChannelTransfer(DMAC_CHANNEL_3, (const void *)&SERCOM1_REGS->USART_INT.SERCOM_DATA, dmaRawBuffer, RX_FRAME_SIZE);
+    if (!DMAC_ChannelIsBusy(DMA_RX_CHANNEL)) {
+        DMAC_ChannelTransfer(DMA_RX_CHANNEL, (const void *)&SERCOM1_REGS->USART_INT.SERCOM_DATA, dmaRawBuffer, RX_FRAME_SIZE);
     }
 }
 
@@ -71,8 +72,8 @@ static void ReadBytesCycle(DMAC_TRANSFER_EVENT event, uintptr_t contextHandle) {
                 break;
             }
         }
-        if (syncIndex > 0)
-            DMAC_ChannelTransfer(DMAC_CHANNEL_3, (const void *)&SERCOM1_REGS->USART_INT.SERCOM_DATA, dmaRawBuffer, syncIndex);
+        if (syncIndex > 0) // discard unsynced bytes
+            DMAC_ChannelTransfer(DMA_RX_CHANNEL, (const void *)&SERCOM1_REGS->USART_INT.SERCOM_DATA, dmaRawBuffer, syncIndex);
         else 
             PMS_PollData();
     } else {

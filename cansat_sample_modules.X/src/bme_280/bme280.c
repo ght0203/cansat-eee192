@@ -48,9 +48,11 @@ void SPI_BME280_Initialize(void) {
     PORT_SEC_REGS->GROUP[0].PORT_PMUX[4] = 0x33U;
     PORT_SEC_REGS->GROUP[0].PORT_PMUX[5] = 0x33U;
     SERCOM2_SPI_Initialize();
+    begin_transfer();
     SPI_BME280_SetMode();
     SPI_BME280_ReadCalibrationData();
     SPI_BME280_PressureCalibration();
+    end_transfer();
 }
 
 static void SPI_BME280_WriteBytes(const uint8_t* bytes, uint8_t bytecount) {

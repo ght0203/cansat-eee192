@@ -18,6 +18,10 @@
         <logicalFolder name="dmac" displayName="dmac" projectFiles="true">
           <itemPath>src/dmac/dmac_transmit.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="hc12" displayName="hc12" projectFiles="true">
+          <itemPath>src/hc12/hc12.h</itemPath>
+          <itemPath>src/hc12/sercom5_usart.h</itemPath>
+        </logicalFolder>
         <logicalFolder name="pms7003" displayName="pms7003" projectFiles="true">
           <itemPath>src/pms7003/pms7003.h</itemPath>
           <itemPath>src/pms7003/sercom1_usart.h</itemPath>
@@ -54,6 +58,10 @@
         </logicalFolder>
         <logicalFolder name="dmac" displayName="dmac" projectFiles="true">
           <itemPath>src/dmac/dmac_transmit.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="hc12" displayName="hc12" projectFiles="true">
+          <itemPath>src/hc12/hc12.c</itemPath>
+          <itemPath>src/hc12/sercom5_usart.c</itemPath>
         </logicalFolder>
         <logicalFolder name="pms7003" displayName="pms7003" projectFiles="true">
           <itemPath>src/pms7003/pms7003.c</itemPath>

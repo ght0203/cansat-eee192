@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=src/bme_280/bme280.c src/bme_280/sercom2_spi.c src/clock/clock.c src/delay_timer/delay_timer.c src/dmac/dmac_transmit.c src/pms7003/pms7003.c src/pms7003/sercom1_usart.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c
+SOURCEFILES_QUOTED_IF_SPACED=src/bme_280/bme280.c src/bme_280/sercom2_spi.c src/clock/clock.c src/delay_timer/delay_timer.c src/dmac/dmac_transmit.c src/pms7003/pms7003.c src/pms7003/sercom1_usart.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c src/hc12/hc12.c src/hc12/sercom5_usart.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/bme_280/bme280.o ${OBJECTDIR}/src/bme_280/sercom2_spi.o ${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/dmac/dmac_transmit.o ${OBJECTDIR}/src/pms7003/pms7003.o ${OBJECTDIR}/src/pms7003/sercom1_usart.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/src/bme_280/bme280.o.d ${OBJECTDIR}/src/bme_280/sercom2_spi.o.d ${OBJECTDIR}/src/clock/clock.o.d ${OBJECTDIR}/src/delay_timer/delay_timer.o.d ${OBJECTDIR}/src/dmac/dmac_transmit.o.d ${OBJECTDIR}/src/pms7003/pms7003.o.d ${OBJECTDIR}/src/pms7003/sercom1_usart.o.d ${OBJECTDIR}/src/usb_serial/sercom3_usart.o.d ${OBJECTDIR}/src/usb_serial/usb_serial.o.d ${OBJECTDIR}/src/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/bme_280/bme280.o ${OBJECTDIR}/src/bme_280/sercom2_spi.o ${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/dmac/dmac_transmit.o ${OBJECTDIR}/src/pms7003/pms7003.o ${OBJECTDIR}/src/pms7003/sercom1_usart.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o ${OBJECTDIR}/src/hc12/hc12.o ${OBJECTDIR}/src/hc12/sercom5_usart.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/src/bme_280/bme280.o.d ${OBJECTDIR}/src/bme_280/sercom2_spi.o.d ${OBJECTDIR}/src/clock/clock.o.d ${OBJECTDIR}/src/delay_timer/delay_timer.o.d ${OBJECTDIR}/src/dmac/dmac_transmit.o.d ${OBJECTDIR}/src/pms7003/pms7003.o.d ${OBJECTDIR}/src/pms7003/sercom1_usart.o.d ${OBJECTDIR}/src/usb_serial/sercom3_usart.o.d ${OBJECTDIR}/src/usb_serial/usb_serial.o.d ${OBJECTDIR}/src/main.o.d ${OBJECTDIR}/src/hc12/hc12.o.d ${OBJECTDIR}/src/hc12/sercom5_usart.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/src/bme_280/bme280.o ${OBJECTDIR}/src/bme_280/sercom2_spi.o ${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/dmac/dmac_transmit.o ${OBJECTDIR}/src/pms7003/pms7003.o ${OBJECTDIR}/src/pms7003/sercom1_usart.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o
+OBJECTFILES=${OBJECTDIR}/src/bme_280/bme280.o ${OBJECTDIR}/src/bme_280/sercom2_spi.o ${OBJECTDIR}/src/clock/clock.o ${OBJECTDIR}/src/delay_timer/delay_timer.o ${OBJECTDIR}/src/dmac/dmac_transmit.o ${OBJECTDIR}/src/pms7003/pms7003.o ${OBJECTDIR}/src/pms7003/sercom1_usart.o ${OBJECTDIR}/src/usb_serial/sercom3_usart.o ${OBJECTDIR}/src/usb_serial/usb_serial.o ${OBJECTDIR}/src/main.o ${OBJECTDIR}/src/hc12/hc12.o ${OBJECTDIR}/src/hc12/sercom5_usart.o
 
 # Source Files
-SOURCEFILES=src/bme_280/bme280.c src/bme_280/sercom2_spi.c src/clock/clock.c src/delay_timer/delay_timer.c src/dmac/dmac_transmit.c src/pms7003/pms7003.c src/pms7003/sercom1_usart.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c
+SOURCEFILES=src/bme_280/bme280.c src/bme_280/sercom2_spi.c src/clock/clock.c src/delay_timer/delay_timer.c src/dmac/dmac_transmit.c src/pms7003/pms7003.c src/pms7003/sercom1_usart.c src/usb_serial/sercom3_usart.c src/usb_serial/usb_serial.c src/main.c src/hc12/hc12.c src/hc12/sercom5_usart.c
 
 # Pack Options 
 PACK_COMMON_OPTIONS=-I "${CMSIS_DIR}/CMSIS/Core/Include"
@@ -164,6 +164,18 @@ ${OBJECTDIR}/src/main.o: src/main.c  .generated_files/flags/default/33f813021fec
 	@${RM} ${OBJECTDIR}/src/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/main.o.d" -o ${OBJECTDIR}/src/main.o src/main.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
+${OBJECTDIR}/src/hc12/hc12.o: src/hc12/hc12.c  .generated_files/flags/default/5efe6c5556cb6dfa2bb0ee94f94fd3a85a2ee12c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/hc12" 
+	@${RM} ${OBJECTDIR}/src/hc12/hc12.o.d 
+	@${RM} ${OBJECTDIR}/src/hc12/hc12.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/hc12/hc12.o.d" -o ${OBJECTDIR}/src/hc12/hc12.o src/hc12/hc12.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/hc12/sercom5_usart.o: src/hc12/sercom5_usart.c  .generated_files/flags/default/c6f0141ddd84fe761c3617767a7fa17eb01e706a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/hc12" 
+	@${RM} ${OBJECTDIR}/src/hc12/sercom5_usart.o.d 
+	@${RM} ${OBJECTDIR}/src/hc12/sercom5_usart.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/hc12/sercom5_usart.o.d" -o ${OBJECTDIR}/src/hc12/sercom5_usart.o src/hc12/sercom5_usart.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
 else
 ${OBJECTDIR}/src/bme_280/bme280.o: src/bme_280/bme280.c  .generated_files/flags/default/2cdfb181b520b560e772f004988e17a87aba2359 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/src/bme_280" 
@@ -224,6 +236,18 @@ ${OBJECTDIR}/src/main.o: src/main.c  .generated_files/flags/default/8446a8748a8a
 	@${RM} ${OBJECTDIR}/src/main.o.d 
 	@${RM} ${OBJECTDIR}/src/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/main.o.d" -o ${OBJECTDIR}/src/main.o src/main.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/hc12/hc12.o: src/hc12/hc12.c  .generated_files/flags/default/f476604121ac7fcaa67849e2fe1e17f0c74f39ce .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/hc12" 
+	@${RM} ${OBJECTDIR}/src/hc12/hc12.o.d 
+	@${RM} ${OBJECTDIR}/src/hc12/hc12.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/hc12/hc12.o.d" -o ${OBJECTDIR}/src/hc12/hc12.o src/hc12/hc12.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
+	
+${OBJECTDIR}/src/hc12/sercom5_usart.o: src/hc12/sercom5_usart.c  .generated_files/flags/default/7a5ff4d26af7aab3546b66958350181cc2ff196c .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/src/hc12" 
+	@${RM} ${OBJECTDIR}/src/hc12/sercom5_usart.o.d 
+	@${RM} ${OBJECTDIR}/src/hc12/sercom5_usart.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -MP -MMD -MF "${OBJECTDIR}/src/hc12/sercom5_usart.o.d" -o ${OBJECTDIR}/src/hc12/sercom5_usart.o src/hc12/sercom5_usart.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/PIC32CM-LS00" ${PACK_COMMON_OPTIONS} 
 	
 endif
 
