@@ -8,11 +8,13 @@
 static void NVIC_Initialize( void );
 static volatile bool delay_pause = false;
 static volatile TCC_CALLBACK_OBJECT TCC0_CallbackObject;
+static volatile bool timeout_active = false;
 // *****************************************************************************
 // *****************************************************************************
 // Section: TCC0 Implementation
 // *****************************************************************************
 // *****************************************************************************
+static void (*timeout_callback)(void) = NULL;
 
 void delay_ms(uint16_t ms) {
     delay_pause = true;
@@ -30,6 +32,26 @@ void delay_ms(uint16_t ms) {
         /* Wait for Write Synchronization */
     }
     while(delay_pause);
+}
+
+void timeout_ms(uint16_t ms, void (*callback)(void)) {
+    while (timeout_active || delay_pause) asm("nop");
+    timeout_callback = callback; // Store the callback function
+    timeout_active = true;
+    /* Disable the timer before configuring */
+    TCC0_REGS->TCC_CTRLA &= ~TCC_CTRLA_ENABLE_Msk;
+    while ((TCC0_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_ENABLE_Msk) == TCC_SYNCBUSY_ENABLE_Msk);
+
+    /* Set the timer period */
+    TCC0_REGS->TCC_PER = (uint32_t)(ms * 46.875);
+    while ((TCC0_REGS->TCC_SYNCBUSY) != 0U);
+
+    /* Enable interrupt on overflow */
+    TCC0_REGS->TCC_INTENSET = TCC_INTENSET_OVF_Msk;
+
+    /* Enable the timer */
+    TCC0_REGS->TCC_CTRLA |= TCC_CTRLA_ENABLE_Msk;
+    while ((TCC0_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_ENABLE_Msk) == TCC_SYNCBUSY_ENABLE_Msk);
 }
 
 // *****************************************************************************
@@ -91,9 +113,14 @@ void __attribute__((interrupt())) TCC0_Handler( void )
     /* Clear interrupt flags */
     TCC0_REGS->TCC_INTFLAG = TCC_INTFLAG_Msk;
     (void)TCC0_REGS->TCC_INTFLAG;
-    if( TCC0_CallbackObject.callback_fn != NULL)
-    {
-        TCC0_CallbackObject.callback_fn(status, context);
+    if (timeout_active) {
+        if( timeout_callback != NULL)
+        {
+            timeout_callback();
+        }
+        timeout_callback = NULL;
+        timeout_active = false;
+    } else {
+        delay_pause = 0;
     }
-    delay_pause = 0;
 }

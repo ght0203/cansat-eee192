@@ -32,6 +32,7 @@ int main() {
     SPI_BME280_Initialize();
     PMS_Initialize(); // also begin reading PMS bytes in background
     HC12_Initialize();
+    GPS_Initialize();
     
     USBSerial_Write("\033c");  // clear terminal
     uint16_t counter = 0;

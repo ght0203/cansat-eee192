@@ -35,7 +35,7 @@ void GPS_Initialize( void ) {
     SERCOM0_USART_Initialize(9600);
     // <insert PORT config here>;
     PORT_SEC_REGS->GROUP[0].PORT_PINCFG[5] = 0x1U; // you only need the RX pin
-    PORT_SEC_REGS->GROUP[0].PORT_PMUX[2] |= 0x20U;
+    PORT_SEC_REGS->GROUP[0].PORT_PMUX[2] |= 0x30U;
     // Register DMA callback function (ReadBytesCycle function executes everytime to read 32 bytes in background)
     DMAC_ChannelCallbackRegister(DMA_RX_CHANNEL, ReadBytesCycle, 0);
     // start DMA cyclic transfer:
@@ -45,7 +45,7 @@ void GPS_Initialize( void ) {
 // Start a DMA receive transfer (polling 32 bytes in background)
 static void GPS_PollData(void) {
     while (DMAC_ChannelIsBusy(DMA_RX_CHANNEL)) {
-        // Wait for DMA to finish
+        // Wait for DMA to be free is something else is using it
     }
     DMAC_ChannelTransfer(DMA_RX_CHANNEL, (const void *)&SERCOM0_REGS->USART_INT.SERCOM_DATA, dma_buffer, RX_FRAME_SIZE);
 }
@@ -116,7 +116,7 @@ static bool GPS_ParseGPGGA(const char *sentence) {
 }
 
 
-// DMA read cyclic function (the callback function)
+// DMA read cyclic function (the callback function), runs every 32 USART bytes
 static void ReadBytesCycle(DMAC_TRANSFER_EVENT event, uintptr_t contextHandle) {
     for (int i = 0; i < RX_FRAME_SIZE; i++) {
         char c = dma_buffer[i];

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/production/cansat_sample_modules.X.production.elf">
+  <executable name="dist/default/debug/cansat_sample_modules.X.debug.elf">
     <memory name="program">
       <units>bytes</units>
       <length>262144</length>
-      <used>29239</used>
-      <free>232905</free>
+      <used>28971</used>
+      <free>233173</free>
     </memory>
     <memory name="data">
       <units>bytes</units>
       <length>32768</length>
-      <used>1487</used>
-      <free>31281</free>
+      <used>1479</used>
+      <free>31289</free>
     </memory>
   </executable>
 </project>
