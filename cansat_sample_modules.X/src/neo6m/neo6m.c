@@ -1,5 +1,6 @@
 #include "neo6m.h"
 #include "sercom0_usart.h"
+#include "stdio.h"
 #include "../dmac/dmac_transmit.h"
 #include "../usb_serial/usb_serial.h"
 
@@ -25,8 +26,8 @@ typedef struct {
 } ParsedNMEA;
 
 static void ReadBytesCycle(DMAC_TRANSFER_EVENT event, uintptr_t contextHandle);
-static void GPS_PollData(void)
-static bool GPS_ParseGPGGA(const char *sentence, ParsedNMEA *parsed_gpgga);
+static void GPS_PollData(void);
+static bool GPS_ParseGPGGA(const char *sentence);
 
 static ParsedNMEA parsed_gpgga;
 
@@ -52,7 +53,7 @@ static void GPS_PollData(void) {
 void GPS_DebugPrint(void)
 {
     char buf[128];
-    snprintf(buf, sizeof(ps->tx_buf),
+    snprintf(buf, sizeof(buf),
         "GPS:(%s,%s%s,%s%s,%s)\r\n",
         parsed_gpgga.utc_time,
         parsed_gpgga.latitude, parsed_gpgga.lat_dir,
@@ -76,28 +77,28 @@ static bool GPS_ParseGPGGA(const char *sentence) {
     while(token != NULL) {
         switch(fieldIndex) {
             case 1: // UTC time
-                strncpy(parsed_gpgga->utc_time, token, sizeof(parsed_gpgga->utc_time));
-                parsed_gpgga->utc_time[sizeof(parsed_gpgga->utc_time)-1] = '\0';
+                strncpy(parsed_gpgga.utc_time, token, sizeof(parsed_gpgga.utc_time));
+                parsed_gpgga.utc_time[sizeof(parsed_gpgga.utc_time)-1] = '\0';
                 break;
             case 2: // Latitude
-                strncpy(parsed_gpgga->latitude, token, sizeof(parsed_gpgga->latitude));
-                parsed_gpgga->latitude[sizeof(parsed_gpgga->latitude)-1] = '\0';
+                strncpy(parsed_gpgga.latitude, token, sizeof(parsed_gpgga.latitude));
+                parsed_gpgga.latitude[sizeof(parsed_gpgga.latitude)-1] = '\0';
                 break;
             case 3: // Latitude direction (N/S)
-                strncpy(parsed_gpgga->lat_dir, token, sizeof(parsed_gpgga->lat_dir));
-                parsed_gpgga->lat_dir[sizeof(parsed_gpgga->lat_dir)-1] = '\0';
+                strncpy(parsed_gpgga.lat_dir, token, sizeof(parsed_gpgga.lat_dir));
+                parsed_gpgga.lat_dir[sizeof(parsed_gpgga.lat_dir)-1] = '\0';
                 break;
             case 4: // Longitude
-                strncpy(parsed_gpgga->longitude, token, sizeof(parsed_gpgga->longitude));
-                parsed_gpgga->longitude[sizeof(parsed_gpgga->longitude)-1] = '\0';
+                strncpy(parsed_gpgga.longitude, token, sizeof(parsed_gpgga.longitude));
+                parsed_gpgga.longitude[sizeof(parsed_gpgga.longitude)-1] = '\0';
                 break;
             case 5: // Longitude direction (E/W)
-                strncpy(parsed_gpgga->lon_dir, token, sizeof(parsed_gpgga->lon_dir));
-                parsed_gpgga->lon_dir[sizeof(parsed_gpgga->lon_dir)-1] = '\0';
+                strncpy(parsed_gpgga.lon_dir, token, sizeof(parsed_gpgga.lon_dir));
+                parsed_gpgga.lon_dir[sizeof(parsed_gpgga.lon_dir)-1] = '\0';
                 break;
             case 9: // Altitude
-                strncpy(parsed_gpgga->altitude, token, sizeof(parsed_gpgga->altitude));
-                parsed_gpgga->altitude[sizeof(parsed_gpgga->altitude)-1] = '\0';
+                strncpy(parsed_gpgga.altitude, token, sizeof(parsed_gpgga.altitude));
+                parsed_gpgga.altitude[sizeof(parsed_gpgga.altitude)-1] = '\0';
                 break;
             default:
                 break;
@@ -106,9 +107,9 @@ static bool GPS_ParseGPGGA(const char *sentence) {
         fieldIndex++;
     }
     // Check that we got the mandatory fields.
-    if (strlen(parsed_gpgga->utc_time) == 0 ||
-        strlen(parsed_gpgga->latitude) == 0 ||
-        strlen(parsed_gpgga->longitude) == 0)
+    if (strlen(parsed_gpgga.utc_time) == 0 ||
+        strlen(parsed_gpgga.latitude) == 0 ||
+        strlen(parsed_gpgga.longitude) == 0)
         return false;
     
     return true;
@@ -156,5 +157,5 @@ static void ReadBytesCycle(DMAC_TRANSFER_EVENT event, uintptr_t contextHandle) {
             }
         }
     }
-    GPS_PollData(void); // restart polling cycle
+    GPS_PollData(); // restart polling cycle
 }

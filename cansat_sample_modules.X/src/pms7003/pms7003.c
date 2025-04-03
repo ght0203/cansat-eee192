@@ -79,7 +79,7 @@ static void ReadBytesCycle(DMAC_TRANSFER_EVENT event, uintptr_t contextHandle) {
             PMS_PollData();
     } else {
         if (PMSUsart_CheckValidData(dmaRawBuffer))
-            memcpy(verifiedRxBuffer, dmaRawBuffer, RX_FRAME_SIZE);
+            memcpy(verifiedRxBuffer, (const void *)dmaRawBuffer, RX_FRAME_SIZE);
         PMS_PollData();
     }
 }
