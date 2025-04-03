@@ -32,7 +32,9 @@ static ParsedNMEA parsed_gpgga;
 
 void GPS_Initialize( void ) {
     SERCOM0_USART_Initialize(9600);
-
+    // <insert PORT config here>;
+    PORT_SEC_REGS->GROUP[0].PORT_PINCFG[5] = 0x1U; // you only need the RX pin
+    PORT_SEC_REGS->GROUP[0].PORT_PMUX[2] |= 0x20U;
     // Register DMA callback function (ReadBytesCycle function executes everytime to read 32 bytes in background)
     DMAC_ChannelCallbackRegister(DMA_RX_CHANNEL, ReadBytesCycle, 0);
     // start DMA cyclic transfer:
@@ -51,11 +53,12 @@ void GPS_DebugPrint(void)
 {
     char buf[128];
     snprintf(buf, sizeof(ps->tx_buf),
-            "GPS:(%s,%s%s,%s%s,%s)\r\n",
-            parsed_gpgga.utc_time,
-            parsed_gpgga.latitude, parsed_gpgga.lat_dir,
-            parsed_gpgga.longitude, parsed_gpgga.lon_dir,
-            parsed_gpgga.altitude);
+        "GPS:(%s,%s%s,%s%s,%s)\r\n",
+        parsed_gpgga.utc_time,
+        parsed_gpgga.latitude, parsed_gpgga.lat_dir,
+        parsed_gpgga.longitude, parsed_gpgga.lon_dir,
+        parsed_gpgga.altitude
+    );
     USBSerial_Write(buf);
 }
 
