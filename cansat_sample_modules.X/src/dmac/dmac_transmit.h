@@ -15,11 +15,11 @@
 typedef enum
 {
     DMAC_CHANNEL_0 = 0, // sercom 3
-    DMAC_CHANNEL_1 = 1,
-    DMAC_CHANNEL_2 = 2, // sercom 5
-    DMAC_CHANNEL_3 = 3,
-    DMAC_CHANNEL_4 = 4, // sercom 1
-    DMAC_CHANNEL_5 = 5,
+    DMAC_CHANNEL_1 = 1, // sercom 3
+    DMAC_CHANNEL_2 = 2, // sercom 0
+    DMAC_CHANNEL_3 = 3, // sercom 1
+    DMAC_CHANNEL_4 = 4, // sercom 5 tx
+    DMAC_CHANNEL_5 = 5, // sercom 5 rx
 } DMAC_CHANNEL;
 
 typedef enum

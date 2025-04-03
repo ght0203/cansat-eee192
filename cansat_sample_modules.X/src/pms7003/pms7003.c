@@ -41,9 +41,10 @@ void PMS_RawBytes(void) // print raw bytes for debugging
 
 // Start a DMA receive transfer (polling 32 bytes in background)
 static void PMS_PollData(void) {
-    if (!DMAC_ChannelIsBusy(DMA_RX_CHANNEL)) {
-        DMAC_ChannelTransfer(DMA_RX_CHANNEL, (const void *)&SERCOM1_REGS->USART_INT.SERCOM_DATA, dmaRawBuffer, RX_FRAME_SIZE);
+    while (DMAC_ChannelIsBusy(DMA_RX_CHANNEL)) {
+        // Wait for DMA to finish
     }
+    DMAC_ChannelTransfer(DMA_RX_CHANNEL, (const void *)&SERCOM1_REGS->USART_INT.SERCOM_DATA, dmaRawBuffer, RX_FRAME_SIZE);
 }
 
 static bool PMSUsart_CheckValidData(uint8_t data[32]) {

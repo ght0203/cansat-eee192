@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "neo6m.h": "c",
+        "sercom0_usart.h": "c"
+    }
+}

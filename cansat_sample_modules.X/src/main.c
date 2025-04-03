@@ -8,6 +8,7 @@
 #include "dmac/dmac_transmit.h"
 #include "pms7003/pms7003.h"
 #include "hc12/hc12.h"
+#include "neo6m/neo6m.h"
 /*
  * 
  */
@@ -60,6 +61,9 @@ int main() {
         char counter_str[20];
         snprintf(counter_str, sizeof(counter_str), "Cycle Count: %d\r\n", counter);
         USBSerial_Write(counter_str);
+
+        // GPS -------------------------------------------
+        GPS_DebugPrint();
     }
     return (EXIT_SUCCESS);
 }
