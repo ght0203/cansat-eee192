@@ -9,6 +9,7 @@
 #include "pms7003/pms7003.h"
 #include "hc12/hc12.h"
 #include "neo6m/neo6m.h"
+#include "scd41/scd41.h"
 /*
  * 
  */
@@ -28,18 +29,19 @@ int main() {
     CLOCK_Initialize();
     DMAC_Initialize(); // Direct memory access controller
     DelayTimer_Initialize();
-    USBSerial_Initialize(38500); // BAUD Rate 38500
+    USBSerial_Initialize(9600); // BAUD Rate 38500
     SPI_BME280_Initialize();
     PMS_Initialize(); // also begin reading PMS bytes in background
     HC12_Initialize();
     GPS_Initialize();
+    SCD41_Initialize();
     
     USBSerial_Write("\033c");  // clear terminal
     uint16_t counter = 0;
     while (true) {
         // PMS DATA ---------------------------------
-        delay_ms(1000);
-        // PMS_RawBytes(); // used to print raw bytes read for debugging only
+        delay_ms(5000);
+        PMS_RawBytes(); // used to print raw bytes read for debugging only
         char out[100];  // Buffer to hold the formatted string
         uint16_t pm1, pm10, pm2_5;
         pm1 = PMS_GetDataPM1();
@@ -50,7 +52,8 @@ int main() {
         
         // BME280 DATA ---------------------------------
         float temp = SPI_BME280_GetTemperature();
-        snprintf(out, sizeof(out), "BME 280 Temp: %.2f\r\n", temp);
+        float pressure = SPI_BME280_GetPressure();
+        snprintf(out, sizeof(out), "BME 280 Temp: %.2f | Pressure: %.2f\r\n", temp, pressure);
         USBSerial_Write(out);
         USBSerial_Write(debug_str);
         
@@ -65,6 +68,11 @@ int main() {
 
         // GPS -------------------------------------------
         GPS_DebugPrint();
+
+        // SCD41 ----------------------------------------
+        float co2 = SCD41_ReadCO2();
+        snprintf(out, sizeof(out), "CO2: %.2f\r\n", co2);
+        USBSerial_Write(out);
     }
     return (EXIT_SUCCESS);
 }

@@ -30,6 +30,11 @@
           <itemPath>src/pms7003/pms7003.h</itemPath>
           <itemPath>src/pms7003/sercom1_usart.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="scd41" displayName="scd41" projectFiles="true">
+          <itemPath>src/scd41/scd41.h</itemPath>
+          <itemPath>src/scd41/sercom4_i2c_master.h</itemPath>
+          <itemPath>src/scd41/sercom_i2c_master_common.h</itemPath>
+        </logicalFolder>
         <logicalFolder name="usb_serial" displayName="usb_serial" projectFiles="true">
           <itemPath>src/usb_serial/sercom3_usart.h</itemPath>
           <itemPath>src/usb_serial/usb_serial.h</itemPath>
@@ -75,6 +80,10 @@
           <itemPath>src/pms7003/pms7003.c</itemPath>
           <itemPath>src/pms7003/sercom1_usart.c</itemPath>
         </logicalFolder>
+        <logicalFolder name="scd41" displayName="scd41" projectFiles="true">
+          <itemPath>src/scd41/scd41.c</itemPath>
+          <itemPath>src/scd41/sercom4_i2c_master.c</itemPath>
+        </logicalFolder>
         <logicalFolder name="usb_serial" displayName="usb_serial" projectFiles="true">
           <itemPath>src/usb_serial/sercom3_usart.c</itemPath>
           <itemPath>src/usb_serial/usb_serial.c</itemPath>
@@ -97,7 +106,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>nEdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>4.45</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -253,6 +262,35 @@
         <property key="trace-symbols" value=""/>
         <property key="warn-section-align" value="false"/>
       </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
       <C32Global>
         <property key="combine-sourcefiles" value="false"/>
         <property key="common-include-directories" value=""/>
